@@ -1,0 +1,2382 @@
+GPU状态检查:
+可用GPU数量: 1
+GPU 0: NVIDIA A100 80GB PCIe
+  内存使用: 0.00GB / 79.18GB
+当前设备: 0
+🔥 正在加载模型...
+✅ 模型加载完成
+🔥 开始分析模型...
+文本输入: Please reconstruct following images:
+图像路径: /gpfs/scratch/lh3862/project/speedread_video/inference_codes/MMLU_5shot.png
+
+=== 测试2: 收集activation ===
+
+visual
+visual.patch_embed
+visual.patch_embed.proj
+visual.rotary_pos_emb
+visual.blocks
+visual.blocks.0
+visual.blocks.0.norm1
+visual.blocks.0.norm2
+visual.blocks.0.attn
+visual.blocks.0.attn.qkv
+visual.blocks.0.attn.proj
+visual.blocks.0.mlp
+visual.blocks.0.mlp.gate_proj
+visual.blocks.0.mlp.up_proj
+visual.blocks.0.mlp.down_proj
+visual.blocks.0.mlp.act_fn
+visual.blocks.1
+visual.blocks.1.norm1
+visual.blocks.1.norm2
+visual.blocks.1.attn
+visual.blocks.1.attn.qkv
+visual.blocks.1.attn.proj
+visual.blocks.1.mlp
+visual.blocks.1.mlp.gate_proj
+visual.blocks.1.mlp.up_proj
+visual.blocks.1.mlp.down_proj
+visual.blocks.1.mlp.act_fn
+visual.blocks.2
+visual.blocks.2.norm1
+visual.blocks.2.norm2
+visual.blocks.2.attn
+visual.blocks.2.attn.qkv
+visual.blocks.2.attn.proj
+visual.blocks.2.mlp
+visual.blocks.2.mlp.gate_proj
+visual.blocks.2.mlp.up_proj
+visual.blocks.2.mlp.down_proj
+visual.blocks.2.mlp.act_fn
+visual.blocks.3
+visual.blocks.3.norm1
+visual.blocks.3.norm2
+visual.blocks.3.attn
+visual.blocks.3.attn.qkv
+visual.blocks.3.attn.proj
+visual.blocks.3.mlp
+visual.blocks.3.mlp.gate_proj
+visual.blocks.3.mlp.up_proj
+visual.blocks.3.mlp.down_proj
+visual.blocks.3.mlp.act_fn
+visual.blocks.4
+visual.blocks.4.norm1
+visual.blocks.4.norm2
+visual.blocks.4.attn
+visual.blocks.4.attn.qkv
+visual.blocks.4.attn.proj
+visual.blocks.4.mlp
+visual.blocks.4.mlp.gate_proj
+visual.blocks.4.mlp.up_proj
+visual.blocks.4.mlp.down_proj
+visual.blocks.4.mlp.act_fn
+visual.blocks.5
+visual.blocks.5.norm1
+visual.blocks.5.norm2
+visual.blocks.5.attn
+visual.blocks.5.attn.qkv
+visual.blocks.5.attn.proj
+visual.blocks.5.mlp
+visual.blocks.5.mlp.gate_proj
+visual.blocks.5.mlp.up_proj
+visual.blocks.5.mlp.down_proj
+visual.blocks.5.mlp.act_fn
+visual.blocks.6
+visual.blocks.6.norm1
+visual.blocks.6.norm2
+visual.blocks.6.attn
+visual.blocks.6.attn.qkv
+visual.blocks.6.attn.proj
+visual.blocks.6.mlp
+visual.blocks.6.mlp.gate_proj
+visual.blocks.6.mlp.up_proj
+visual.blocks.6.mlp.down_proj
+visual.blocks.6.mlp.act_fn
+visual.blocks.7
+visual.blocks.7.norm1
+visual.blocks.7.norm2
+visual.blocks.7.attn
+visual.blocks.7.attn.qkv
+visual.blocks.7.attn.proj
+visual.blocks.7.mlp
+visual.blocks.7.mlp.gate_proj
+visual.blocks.7.mlp.up_proj
+visual.blocks.7.mlp.down_proj
+visual.blocks.7.mlp.act_fn
+visual.blocks.8
+visual.blocks.8.norm1
+visual.blocks.8.norm2
+visual.blocks.8.attn
+visual.blocks.8.attn.qkv
+visual.blocks.8.attn.proj
+visual.blocks.8.mlp
+visual.blocks.8.mlp.gate_proj
+visual.blocks.8.mlp.up_proj
+visual.blocks.8.mlp.down_proj
+visual.blocks.8.mlp.act_fn
+visual.blocks.9
+visual.blocks.9.norm1
+visual.blocks.9.norm2
+visual.blocks.9.attn
+visual.blocks.9.attn.qkv
+visual.blocks.9.attn.proj
+visual.blocks.9.mlp
+visual.blocks.9.mlp.gate_proj
+visual.blocks.9.mlp.up_proj
+visual.blocks.9.mlp.down_proj
+visual.blocks.9.mlp.act_fn
+visual.blocks.10
+visual.blocks.10.norm1
+visual.blocks.10.norm2
+visual.blocks.10.attn
+visual.blocks.10.attn.qkv
+visual.blocks.10.attn.proj
+visual.blocks.10.mlp
+visual.blocks.10.mlp.gate_proj
+visual.blocks.10.mlp.up_proj
+visual.blocks.10.mlp.down_proj
+visual.blocks.10.mlp.act_fn
+visual.blocks.11
+visual.blocks.11.norm1
+visual.blocks.11.norm2
+visual.blocks.11.attn
+visual.blocks.11.attn.qkv
+visual.blocks.11.attn.proj
+visual.blocks.11.mlp
+visual.blocks.11.mlp.gate_proj
+visual.blocks.11.mlp.up_proj
+visual.blocks.11.mlp.down_proj
+visual.blocks.11.mlp.act_fn
+visual.blocks.12
+visual.blocks.12.norm1
+visual.blocks.12.norm2
+visual.blocks.12.attn
+visual.blocks.12.attn.qkv
+visual.blocks.12.attn.proj
+visual.blocks.12.mlp
+visual.blocks.12.mlp.gate_proj
+visual.blocks.12.mlp.up_proj
+visual.blocks.12.mlp.down_proj
+visual.blocks.12.mlp.act_fn
+visual.blocks.13
+visual.blocks.13.norm1
+visual.blocks.13.norm2
+visual.blocks.13.attn
+visual.blocks.13.attn.qkv
+visual.blocks.13.attn.proj
+visual.blocks.13.mlp
+visual.blocks.13.mlp.gate_proj
+visual.blocks.13.mlp.up_proj
+visual.blocks.13.mlp.down_proj
+visual.blocks.13.mlp.act_fn
+visual.blocks.14
+visual.blocks.14.norm1
+visual.blocks.14.norm2
+visual.blocks.14.attn
+visual.blocks.14.attn.qkv
+visual.blocks.14.attn.proj
+visual.blocks.14.mlp
+visual.blocks.14.mlp.gate_proj
+visual.blocks.14.mlp.up_proj
+visual.blocks.14.mlp.down_proj
+visual.blocks.14.mlp.act_fn
+visual.blocks.15
+visual.blocks.15.norm1
+visual.blocks.15.norm2
+visual.blocks.15.attn
+visual.blocks.15.attn.qkv
+visual.blocks.15.attn.proj
+visual.blocks.15.mlp
+visual.blocks.15.mlp.gate_proj
+visual.blocks.15.mlp.up_proj
+visual.blocks.15.mlp.down_proj
+visual.blocks.15.mlp.act_fn
+visual.blocks.16
+visual.blocks.16.norm1
+visual.blocks.16.norm2
+visual.blocks.16.attn
+visual.blocks.16.attn.qkv
+visual.blocks.16.attn.proj
+visual.blocks.16.mlp
+visual.blocks.16.mlp.gate_proj
+visual.blocks.16.mlp.up_proj
+visual.blocks.16.mlp.down_proj
+visual.blocks.16.mlp.act_fn
+visual.blocks.17
+visual.blocks.17.norm1
+visual.blocks.17.norm2
+visual.blocks.17.attn
+visual.blocks.17.attn.qkv
+visual.blocks.17.attn.proj
+visual.blocks.17.mlp
+visual.blocks.17.mlp.gate_proj
+visual.blocks.17.mlp.up_proj
+visual.blocks.17.mlp.down_proj
+visual.blocks.17.mlp.act_fn
+visual.blocks.18
+visual.blocks.18.norm1
+visual.blocks.18.norm2
+visual.blocks.18.attn
+visual.blocks.18.attn.qkv
+visual.blocks.18.attn.proj
+visual.blocks.18.mlp
+visual.blocks.18.mlp.gate_proj
+visual.blocks.18.mlp.up_proj
+visual.blocks.18.mlp.down_proj
+visual.blocks.18.mlp.act_fn
+visual.blocks.19
+visual.blocks.19.norm1
+visual.blocks.19.norm2
+visual.blocks.19.attn
+visual.blocks.19.attn.qkv
+visual.blocks.19.attn.proj
+visual.blocks.19.mlp
+visual.blocks.19.mlp.gate_proj
+visual.blocks.19.mlp.up_proj
+visual.blocks.19.mlp.down_proj
+visual.blocks.19.mlp.act_fn
+visual.blocks.20
+visual.blocks.20.norm1
+visual.blocks.20.norm2
+visual.blocks.20.attn
+visual.blocks.20.attn.qkv
+visual.blocks.20.attn.proj
+visual.blocks.20.mlp
+visual.blocks.20.mlp.gate_proj
+visual.blocks.20.mlp.up_proj
+visual.blocks.20.mlp.down_proj
+visual.blocks.20.mlp.act_fn
+visual.blocks.21
+visual.blocks.21.norm1
+visual.blocks.21.norm2
+visual.blocks.21.attn
+visual.blocks.21.attn.qkv
+visual.blocks.21.attn.proj
+visual.blocks.21.mlp
+visual.blocks.21.mlp.gate_proj
+visual.blocks.21.mlp.up_proj
+visual.blocks.21.mlp.down_proj
+visual.blocks.21.mlp.act_fn
+visual.blocks.22
+visual.blocks.22.norm1
+visual.blocks.22.norm2
+visual.blocks.22.attn
+visual.blocks.22.attn.qkv
+visual.blocks.22.attn.proj
+visual.blocks.22.mlp
+visual.blocks.22.mlp.gate_proj
+visual.blocks.22.mlp.up_proj
+visual.blocks.22.mlp.down_proj
+visual.blocks.22.mlp.act_fn
+visual.blocks.23
+visual.blocks.23.norm1
+visual.blocks.23.norm2
+visual.blocks.23.attn
+visual.blocks.23.attn.qkv
+visual.blocks.23.attn.proj
+visual.blocks.23.mlp
+visual.blocks.23.mlp.gate_proj
+visual.blocks.23.mlp.up_proj
+visual.blocks.23.mlp.down_proj
+visual.blocks.23.mlp.act_fn
+visual.blocks.24
+visual.blocks.24.norm1
+visual.blocks.24.norm2
+visual.blocks.24.attn
+visual.blocks.24.attn.qkv
+visual.blocks.24.attn.proj
+visual.blocks.24.mlp
+visual.blocks.24.mlp.gate_proj
+visual.blocks.24.mlp.up_proj
+visual.blocks.24.mlp.down_proj
+visual.blocks.24.mlp.act_fn
+visual.blocks.25
+visual.blocks.25.norm1
+visual.blocks.25.norm2
+visual.blocks.25.attn
+visual.blocks.25.attn.qkv
+visual.blocks.25.attn.proj
+visual.blocks.25.mlp
+visual.blocks.25.mlp.gate_proj
+visual.blocks.25.mlp.up_proj
+visual.blocks.25.mlp.down_proj
+visual.blocks.25.mlp.act_fn
+visual.blocks.26
+visual.blocks.26.norm1
+visual.blocks.26.norm2
+visual.blocks.26.attn
+visual.blocks.26.attn.qkv
+visual.blocks.26.attn.proj
+visual.blocks.26.mlp
+visual.blocks.26.mlp.gate_proj
+visual.blocks.26.mlp.up_proj
+visual.blocks.26.mlp.down_proj
+visual.blocks.26.mlp.act_fn
+visual.blocks.27
+visual.blocks.27.norm1
+visual.blocks.27.norm2
+visual.blocks.27.attn
+visual.blocks.27.attn.qkv
+visual.blocks.27.attn.proj
+visual.blocks.27.mlp
+visual.blocks.27.mlp.gate_proj
+visual.blocks.27.mlp.up_proj
+visual.blocks.27.mlp.down_proj
+visual.blocks.27.mlp.act_fn
+visual.blocks.28
+visual.blocks.28.norm1
+visual.blocks.28.norm2
+visual.blocks.28.attn
+visual.blocks.28.attn.qkv
+visual.blocks.28.attn.proj
+visual.blocks.28.mlp
+visual.blocks.28.mlp.gate_proj
+visual.blocks.28.mlp.up_proj
+visual.blocks.28.mlp.down_proj
+visual.blocks.28.mlp.act_fn
+visual.blocks.29
+visual.blocks.29.norm1
+visual.blocks.29.norm2
+visual.blocks.29.attn
+visual.blocks.29.attn.qkv
+visual.blocks.29.attn.proj
+visual.blocks.29.mlp
+visual.blocks.29.mlp.gate_proj
+visual.blocks.29.mlp.up_proj
+visual.blocks.29.mlp.down_proj
+visual.blocks.29.mlp.act_fn
+visual.blocks.30
+visual.blocks.30.norm1
+visual.blocks.30.norm2
+visual.blocks.30.attn
+visual.blocks.30.attn.qkv
+visual.blocks.30.attn.proj
+visual.blocks.30.mlp
+visual.blocks.30.mlp.gate_proj
+visual.blocks.30.mlp.up_proj
+visual.blocks.30.mlp.down_proj
+visual.blocks.30.mlp.act_fn
+visual.blocks.31
+visual.blocks.31.norm1
+visual.blocks.31.norm2
+visual.blocks.31.attn
+visual.blocks.31.attn.qkv
+visual.blocks.31.attn.proj
+visual.blocks.31.mlp
+visual.blocks.31.mlp.gate_proj
+visual.blocks.31.mlp.up_proj
+visual.blocks.31.mlp.down_proj
+visual.blocks.31.mlp.act_fn
+visual.merger
+visual.merger.ln_q
+visual.merger.mlp
+visual.merger.mlp.0
+visual.merger.mlp.1
+visual.merger.mlp.2
+model
+model.embed_tokens
+model.layers
+model.layers.0
+model.layers.0.self_attn
+model.layers.0.self_attn.q_proj
+model.layers.0.self_attn.k_proj
+model.layers.0.self_attn.v_proj
+model.layers.0.self_attn.o_proj
+model.layers.0.self_attn.rotary_emb
+model.layers.0.mlp
+model.layers.0.mlp.gate_proj
+model.layers.0.mlp.up_proj
+model.layers.0.mlp.down_proj
+model.layers.0.mlp.act_fn
+model.layers.0.input_layernorm
+model.layers.0.post_attention_layernorm
+model.layers.1
+model.layers.1.self_attn
+model.layers.1.self_attn.q_proj
+model.layers.1.self_attn.k_proj
+model.layers.1.self_attn.v_proj
+model.layers.1.self_attn.o_proj
+model.layers.1.self_attn.rotary_emb
+model.layers.1.mlp
+model.layers.1.mlp.gate_proj
+model.layers.1.mlp.up_proj
+model.layers.1.mlp.down_proj
+model.layers.1.mlp.act_fn
+model.layers.1.input_layernorm
+model.layers.1.post_attention_layernorm
+model.layers.2
+model.layers.2.self_attn
+model.layers.2.self_attn.q_proj
+model.layers.2.self_attn.k_proj
+model.layers.2.self_attn.v_proj
+model.layers.2.self_attn.o_proj
+model.layers.2.self_attn.rotary_emb
+model.layers.2.mlp
+model.layers.2.mlp.gate_proj
+model.layers.2.mlp.up_proj
+model.layers.2.mlp.down_proj
+model.layers.2.mlp.act_fn
+model.layers.2.input_layernorm
+model.layers.2.post_attention_layernorm
+model.layers.3
+model.layers.3.self_attn
+model.layers.3.self_attn.q_proj
+model.layers.3.self_attn.k_proj
+model.layers.3.self_attn.v_proj
+model.layers.3.self_attn.o_proj
+model.layers.3.self_attn.rotary_emb
+model.layers.3.mlp
+model.layers.3.mlp.gate_proj
+model.layers.3.mlp.up_proj
+model.layers.3.mlp.down_proj
+model.layers.3.mlp.act_fn
+model.layers.3.input_layernorm
+model.layers.3.post_attention_layernorm
+model.layers.4
+model.layers.4.self_attn
+model.layers.4.self_attn.q_proj
+model.layers.4.self_attn.k_proj
+model.layers.4.self_attn.v_proj
+model.layers.4.self_attn.o_proj
+model.layers.4.self_attn.rotary_emb
+model.layers.4.mlp
+model.layers.4.mlp.gate_proj
+model.layers.4.mlp.up_proj
+model.layers.4.mlp.down_proj
+model.layers.4.mlp.act_fn
+model.layers.4.input_layernorm
+model.layers.4.post_attention_layernorm
+model.layers.5
+model.layers.5.self_attn
+model.layers.5.self_attn.q_proj
+model.layers.5.self_attn.k_proj
+model.layers.5.self_attn.v_proj
+model.layers.5.self_attn.o_proj
+model.layers.5.self_attn.rotary_emb
+model.layers.5.mlp
+model.layers.5.mlp.gate_proj
+model.layers.5.mlp.up_proj
+model.layers.5.mlp.down_proj
+model.layers.5.mlp.act_fn
+model.layers.5.input_layernorm
+model.layers.5.post_attention_layernorm
+model.layers.6
+model.layers.6.self_attn
+model.layers.6.self_attn.q_proj
+model.layers.6.self_attn.k_proj
+model.layers.6.self_attn.v_proj
+model.layers.6.self_attn.o_proj
+model.layers.6.self_attn.rotary_emb
+model.layers.6.mlp
+model.layers.6.mlp.gate_proj
+model.layers.6.mlp.up_proj
+model.layers.6.mlp.down_proj
+model.layers.6.mlp.act_fn
+model.layers.6.input_layernorm
+model.layers.6.post_attention_layernorm
+model.layers.7
+model.layers.7.self_attn
+model.layers.7.self_attn.q_proj
+model.layers.7.self_attn.k_proj
+model.layers.7.self_attn.v_proj
+model.layers.7.self_attn.o_proj
+model.layers.7.self_attn.rotary_emb
+model.layers.7.mlp
+model.layers.7.mlp.gate_proj
+model.layers.7.mlp.up_proj
+model.layers.7.mlp.down_proj
+model.layers.7.mlp.act_fn
+model.layers.7.input_layernorm
+model.layers.7.post_attention_layernorm
+model.layers.8
+model.layers.8.self_attn
+model.layers.8.self_attn.q_proj
+model.layers.8.self_attn.k_proj
+model.layers.8.self_attn.v_proj
+model.layers.8.self_attn.o_proj
+model.layers.8.self_attn.rotary_emb
+model.layers.8.mlp
+model.layers.8.mlp.gate_proj
+model.layers.8.mlp.up_proj
+model.layers.8.mlp.down_proj
+model.layers.8.mlp.act_fn
+model.layers.8.input_layernorm
+model.layers.8.post_attention_layernorm
+model.layers.9
+model.layers.9.self_attn
+model.layers.9.self_attn.q_proj
+model.layers.9.self_attn.k_proj
+model.layers.9.self_attn.v_proj
+model.layers.9.self_attn.o_proj
+model.layers.9.self_attn.rotary_emb
+model.layers.9.mlp
+model.layers.9.mlp.gate_proj
+model.layers.9.mlp.up_proj
+model.layers.9.mlp.down_proj
+model.layers.9.mlp.act_fn
+model.layers.9.input_layernorm
+model.layers.9.post_attention_layernorm
+model.layers.10
+model.layers.10.self_attn
+model.layers.10.self_attn.q_proj
+model.layers.10.self_attn.k_proj
+model.layers.10.self_attn.v_proj
+model.layers.10.self_attn.o_proj
+model.layers.10.self_attn.rotary_emb
+model.layers.10.mlp
+model.layers.10.mlp.gate_proj
+model.layers.10.mlp.up_proj
+model.layers.10.mlp.down_proj
+model.layers.10.mlp.act_fn
+model.layers.10.input_layernorm
+model.layers.10.post_attention_layernorm
+model.layers.11
+model.layers.11.self_attn
+model.layers.11.self_attn.q_proj
+model.layers.11.self_attn.k_proj
+model.layers.11.self_attn.v_proj
+model.layers.11.self_attn.o_proj
+model.layers.11.self_attn.rotary_emb
+model.layers.11.mlp
+model.layers.11.mlp.gate_proj
+model.layers.11.mlp.up_proj
+model.layers.11.mlp.down_proj
+model.layers.11.mlp.act_fn
+model.layers.11.input_layernorm
+model.layers.11.post_attention_layernorm
+model.layers.12
+model.layers.12.self_attn
+model.layers.12.self_attn.q_proj
+model.layers.12.self_attn.k_proj
+model.layers.12.self_attn.v_proj
+model.layers.12.self_attn.o_proj
+model.layers.12.self_attn.rotary_emb
+model.layers.12.mlp
+model.layers.12.mlp.gate_proj
+model.layers.12.mlp.up_proj
+model.layers.12.mlp.down_proj
+model.layers.12.mlp.act_fn
+model.layers.12.input_layernorm
+model.layers.12.post_attention_layernorm
+model.layers.13
+model.layers.13.self_attn
+model.layers.13.self_attn.q_proj
+model.layers.13.self_attn.k_proj
+model.layers.13.self_attn.v_proj
+model.layers.13.self_attn.o_proj
+model.layers.13.self_attn.rotary_emb
+model.layers.13.mlp
+model.layers.13.mlp.gate_proj
+model.layers.13.mlp.up_proj
+model.layers.13.mlp.down_proj
+model.layers.13.mlp.act_fn
+model.layers.13.input_layernorm
+model.layers.13.post_attention_layernorm
+model.layers.14
+model.layers.14.self_attn
+model.layers.14.self_attn.q_proj
+model.layers.14.self_attn.k_proj
+model.layers.14.self_attn.v_proj
+model.layers.14.self_attn.o_proj
+model.layers.14.self_attn.rotary_emb
+model.layers.14.mlp
+model.layers.14.mlp.gate_proj
+model.layers.14.mlp.up_proj
+model.layers.14.mlp.down_proj
+model.layers.14.mlp.act_fn
+model.layers.14.input_layernorm
+model.layers.14.post_attention_layernorm
+model.layers.15
+model.layers.15.self_attn
+model.layers.15.self_attn.q_proj
+model.layers.15.self_attn.k_proj
+model.layers.15.self_attn.v_proj
+model.layers.15.self_attn.o_proj
+model.layers.15.self_attn.rotary_emb
+model.layers.15.mlp
+model.layers.15.mlp.gate_proj
+model.layers.15.mlp.up_proj
+model.layers.15.mlp.down_proj
+model.layers.15.mlp.act_fn
+model.layers.15.input_layernorm
+model.layers.15.post_attention_layernorm
+model.layers.16
+model.layers.16.self_attn
+model.layers.16.self_attn.q_proj
+model.layers.16.self_attn.k_proj
+model.layers.16.self_attn.v_proj
+model.layers.16.self_attn.o_proj
+model.layers.16.self_attn.rotary_emb
+model.layers.16.mlp
+model.layers.16.mlp.gate_proj
+model.layers.16.mlp.up_proj
+model.layers.16.mlp.down_proj
+model.layers.16.mlp.act_fn
+model.layers.16.input_layernorm
+model.layers.16.post_attention_layernorm
+model.layers.17
+model.layers.17.self_attn
+model.layers.17.self_attn.q_proj
+model.layers.17.self_attn.k_proj
+model.layers.17.self_attn.v_proj
+model.layers.17.self_attn.o_proj
+model.layers.17.self_attn.rotary_emb
+model.layers.17.mlp
+model.layers.17.mlp.gate_proj
+model.layers.17.mlp.up_proj
+model.layers.17.mlp.down_proj
+model.layers.17.mlp.act_fn
+model.layers.17.input_layernorm
+model.layers.17.post_attention_layernorm
+model.layers.18
+model.layers.18.self_attn
+model.layers.18.self_attn.q_proj
+model.layers.18.self_attn.k_proj
+model.layers.18.self_attn.v_proj
+model.layers.18.self_attn.o_proj
+model.layers.18.self_attn.rotary_emb
+model.layers.18.mlp
+model.layers.18.mlp.gate_proj
+model.layers.18.mlp.up_proj
+model.layers.18.mlp.down_proj
+model.layers.18.mlp.act_fn
+model.layers.18.input_layernorm
+model.layers.18.post_attention_layernorm
+model.layers.19
+model.layers.19.self_attn
+model.layers.19.self_attn.q_proj
+model.layers.19.self_attn.k_proj
+model.layers.19.self_attn.v_proj
+model.layers.19.self_attn.o_proj
+model.layers.19.self_attn.rotary_emb
+model.layers.19.mlp
+model.layers.19.mlp.gate_proj
+model.layers.19.mlp.up_proj
+model.layers.19.mlp.down_proj
+model.layers.19.mlp.act_fn
+model.layers.19.input_layernorm
+model.layers.19.post_attention_layernorm
+model.layers.20
+model.layers.20.self_attn
+model.layers.20.self_attn.q_proj
+model.layers.20.self_attn.k_proj
+model.layers.20.self_attn.v_proj
+model.layers.20.self_attn.o_proj
+model.layers.20.self_attn.rotary_emb
+model.layers.20.mlp
+model.layers.20.mlp.gate_proj
+model.layers.20.mlp.up_proj
+model.layers.20.mlp.down_proj
+model.layers.20.mlp.act_fn
+model.layers.20.input_layernorm
+model.layers.20.post_attention_layernorm
+model.layers.21
+model.layers.21.self_attn
+model.layers.21.self_attn.q_proj
+model.layers.21.self_attn.k_proj
+model.layers.21.self_attn.v_proj
+model.layers.21.self_attn.o_proj
+model.layers.21.self_attn.rotary_emb
+model.layers.21.mlp
+model.layers.21.mlp.gate_proj
+model.layers.21.mlp.up_proj
+model.layers.21.mlp.down_proj
+model.layers.21.mlp.act_fn
+model.layers.21.input_layernorm
+model.layers.21.post_attention_layernorm
+model.layers.22
+model.layers.22.self_attn
+model.layers.22.self_attn.q_proj
+model.layers.22.self_attn.k_proj
+model.layers.22.self_attn.v_proj
+model.layers.22.self_attn.o_proj
+model.layers.22.self_attn.rotary_emb
+model.layers.22.mlp
+model.layers.22.mlp.gate_proj
+model.layers.22.mlp.up_proj
+model.layers.22.mlp.down_proj
+model.layers.22.mlp.act_fn
+model.layers.22.input_layernorm
+model.layers.22.post_attention_layernorm
+model.layers.23
+model.layers.23.self_attn
+model.layers.23.self_attn.q_proj
+model.layers.23.self_attn.k_proj
+model.layers.23.self_attn.v_proj
+model.layers.23.self_attn.o_proj
+model.layers.23.self_attn.rotary_emb
+model.layers.23.mlp
+model.layers.23.mlp.gate_proj
+model.layers.23.mlp.up_proj
+model.layers.23.mlp.down_proj
+model.layers.23.mlp.act_fn
+model.layers.23.input_layernorm
+model.layers.23.post_attention_layernorm
+model.layers.24
+model.layers.24.self_attn
+model.layers.24.self_attn.q_proj
+model.layers.24.self_attn.k_proj
+model.layers.24.self_attn.v_proj
+model.layers.24.self_attn.o_proj
+model.layers.24.self_attn.rotary_emb
+model.layers.24.mlp
+model.layers.24.mlp.gate_proj
+model.layers.24.mlp.up_proj
+model.layers.24.mlp.down_proj
+model.layers.24.mlp.act_fn
+model.layers.24.input_layernorm
+model.layers.24.post_attention_layernorm
+model.layers.25
+model.layers.25.self_attn
+model.layers.25.self_attn.q_proj
+model.layers.25.self_attn.k_proj
+model.layers.25.self_attn.v_proj
+model.layers.25.self_attn.o_proj
+model.layers.25.self_attn.rotary_emb
+model.layers.25.mlp
+model.layers.25.mlp.gate_proj
+model.layers.25.mlp.up_proj
+model.layers.25.mlp.down_proj
+model.layers.25.mlp.act_fn
+model.layers.25.input_layernorm
+model.layers.25.post_attention_layernorm
+model.layers.26
+model.layers.26.self_attn
+model.layers.26.self_attn.q_proj
+model.layers.26.self_attn.k_proj
+model.layers.26.self_attn.v_proj
+model.layers.26.self_attn.o_proj
+model.layers.26.self_attn.rotary_emb
+model.layers.26.mlp
+model.layers.26.mlp.gate_proj
+model.layers.26.mlp.up_proj
+model.layers.26.mlp.down_proj
+model.layers.26.mlp.act_fn
+model.layers.26.input_layernorm
+model.layers.26.post_attention_layernorm
+model.layers.27
+model.layers.27.self_attn
+model.layers.27.self_attn.q_proj
+model.layers.27.self_attn.k_proj
+model.layers.27.self_attn.v_proj
+model.layers.27.self_attn.o_proj
+model.layers.27.self_attn.rotary_emb
+model.layers.27.mlp
+model.layers.27.mlp.gate_proj
+model.layers.27.mlp.up_proj
+model.layers.27.mlp.down_proj
+model.layers.27.mlp.act_fn
+model.layers.27.input_layernorm
+model.layers.27.post_attention_layernorm
+model.layers.28
+model.layers.28.self_attn
+model.layers.28.self_attn.q_proj
+model.layers.28.self_attn.k_proj
+model.layers.28.self_attn.v_proj
+model.layers.28.self_attn.o_proj
+model.layers.28.self_attn.rotary_emb
+model.layers.28.mlp
+model.layers.28.mlp.gate_proj
+model.layers.28.mlp.up_proj
+model.layers.28.mlp.down_proj
+model.layers.28.mlp.act_fn
+model.layers.28.input_layernorm
+model.layers.28.post_attention_layernorm
+model.layers.29
+model.layers.29.self_attn
+model.layers.29.self_attn.q_proj
+model.layers.29.self_attn.k_proj
+model.layers.29.self_attn.v_proj
+model.layers.29.self_attn.o_proj
+model.layers.29.self_attn.rotary_emb
+model.layers.29.mlp
+model.layers.29.mlp.gate_proj
+model.layers.29.mlp.up_proj
+model.layers.29.mlp.down_proj
+model.layers.29.mlp.act_fn
+model.layers.29.input_layernorm
+model.layers.29.post_attention_layernorm
+model.layers.30
+model.layers.30.self_attn
+model.layers.30.self_attn.q_proj
+model.layers.30.self_attn.k_proj
+model.layers.30.self_attn.v_proj
+model.layers.30.self_attn.o_proj
+model.layers.30.self_attn.rotary_emb
+model.layers.30.mlp
+model.layers.30.mlp.gate_proj
+model.layers.30.mlp.up_proj
+model.layers.30.mlp.down_proj
+model.layers.30.mlp.act_fn
+model.layers.30.input_layernorm
+model.layers.30.post_attention_layernorm
+model.layers.31
+model.layers.31.self_attn
+model.layers.31.self_attn.q_proj
+model.layers.31.self_attn.k_proj
+model.layers.31.self_attn.v_proj
+model.layers.31.self_attn.o_proj
+model.layers.31.self_attn.rotary_emb
+model.layers.31.mlp
+model.layers.31.mlp.gate_proj
+model.layers.31.mlp.up_proj
+model.layers.31.mlp.down_proj
+model.layers.31.mlp.act_fn
+model.layers.31.input_layernorm
+model.layers.31.post_attention_layernorm
+model.layers.32
+model.layers.32.self_attn
+model.layers.32.self_attn.q_proj
+model.layers.32.self_attn.k_proj
+model.layers.32.self_attn.v_proj
+model.layers.32.self_attn.o_proj
+model.layers.32.self_attn.rotary_emb
+model.layers.32.mlp
+model.layers.32.mlp.gate_proj
+model.layers.32.mlp.up_proj
+model.layers.32.mlp.down_proj
+model.layers.32.mlp.act_fn
+model.layers.32.input_layernorm
+model.layers.32.post_attention_layernorm
+model.layers.33
+model.layers.33.self_attn
+model.layers.33.self_attn.q_proj
+model.layers.33.self_attn.k_proj
+model.layers.33.self_attn.v_proj
+model.layers.33.self_attn.o_proj
+model.layers.33.self_attn.rotary_emb
+model.layers.33.mlp
+model.layers.33.mlp.gate_proj
+model.layers.33.mlp.up_proj
+model.layers.33.mlp.down_proj
+model.layers.33.mlp.act_fn
+model.layers.33.input_layernorm
+model.layers.33.post_attention_layernorm
+model.layers.34
+model.layers.34.self_attn
+model.layers.34.self_attn.q_proj
+model.layers.34.self_attn.k_proj
+model.layers.34.self_attn.v_proj
+model.layers.34.self_attn.o_proj
+model.layers.34.self_attn.rotary_emb
+model.layers.34.mlp
+model.layers.34.mlp.gate_proj
+model.layers.34.mlp.up_proj
+model.layers.34.mlp.down_proj
+model.layers.34.mlp.act_fn
+model.layers.34.input_layernorm
+model.layers.34.post_attention_layernorm
+model.layers.35
+model.layers.35.self_attn
+model.layers.35.self_attn.q_proj
+model.layers.35.self_attn.k_proj
+model.layers.35.self_attn.v_proj
+model.layers.35.self_attn.o_proj
+model.layers.35.self_attn.rotary_emb
+model.layers.35.mlp
+model.layers.35.mlp.gate_proj
+model.layers.35.mlp.up_proj
+model.layers.35.mlp.down_proj
+model.layers.35.mlp.act_fn
+model.layers.35.input_layernorm
+model.layers.35.post_attention_layernorm
+model.layers.36
+model.layers.36.self_attn
+model.layers.36.self_attn.q_proj
+model.layers.36.self_attn.k_proj
+model.layers.36.self_attn.v_proj
+model.layers.36.self_attn.o_proj
+model.layers.36.self_attn.rotary_emb
+model.layers.36.mlp
+model.layers.36.mlp.gate_proj
+model.layers.36.mlp.up_proj
+model.layers.36.mlp.down_proj
+model.layers.36.mlp.act_fn
+model.layers.36.input_layernorm
+model.layers.36.post_attention_layernorm
+model.layers.37
+model.layers.37.self_attn
+model.layers.37.self_attn.q_proj
+model.layers.37.self_attn.k_proj
+model.layers.37.self_attn.v_proj
+model.layers.37.self_attn.o_proj
+model.layers.37.self_attn.rotary_emb
+model.layers.37.mlp
+model.layers.37.mlp.gate_proj
+model.layers.37.mlp.up_proj
+model.layers.37.mlp.down_proj
+model.layers.37.mlp.act_fn
+model.layers.37.input_layernorm
+model.layers.37.post_attention_layernorm
+model.layers.38
+model.layers.38.self_attn
+model.layers.38.self_attn.q_proj
+model.layers.38.self_attn.k_proj
+model.layers.38.self_attn.v_proj
+model.layers.38.self_attn.o_proj
+model.layers.38.self_attn.rotary_emb
+model.layers.38.mlp
+model.layers.38.mlp.gate_proj
+model.layers.38.mlp.up_proj
+model.layers.38.mlp.down_proj
+model.layers.38.mlp.act_fn
+model.layers.38.input_layernorm
+model.layers.38.post_attention_layernorm
+model.layers.39
+model.layers.39.self_attn
+model.layers.39.self_attn.q_proj
+model.layers.39.self_attn.k_proj
+model.layers.39.self_attn.v_proj
+model.layers.39.self_attn.o_proj
+model.layers.39.self_attn.rotary_emb
+model.layers.39.mlp
+model.layers.39.mlp.gate_proj
+model.layers.39.mlp.up_proj
+model.layers.39.mlp.down_proj
+model.layers.39.mlp.act_fn
+model.layers.39.input_layernorm
+model.layers.39.post_attention_layernorm
+model.layers.40
+model.layers.40.self_attn
+model.layers.40.self_attn.q_proj
+model.layers.40.self_attn.k_proj
+model.layers.40.self_attn.v_proj
+model.layers.40.self_attn.o_proj
+model.layers.40.self_attn.rotary_emb
+model.layers.40.mlp
+model.layers.40.mlp.gate_proj
+model.layers.40.mlp.up_proj
+model.layers.40.mlp.down_proj
+model.layers.40.mlp.act_fn
+model.layers.40.input_layernorm
+model.layers.40.post_attention_layernorm
+model.layers.41
+model.layers.41.self_attn
+model.layers.41.self_attn.q_proj
+model.layers.41.self_attn.k_proj
+model.layers.41.self_attn.v_proj
+model.layers.41.self_attn.o_proj
+model.layers.41.self_attn.rotary_emb
+model.layers.41.mlp
+model.layers.41.mlp.gate_proj
+model.layers.41.mlp.up_proj
+model.layers.41.mlp.down_proj
+model.layers.41.mlp.act_fn
+model.layers.41.input_layernorm
+model.layers.41.post_attention_layernorm
+model.layers.42
+model.layers.42.self_attn
+model.layers.42.self_attn.q_proj
+model.layers.42.self_attn.k_proj
+model.layers.42.self_attn.v_proj
+model.layers.42.self_attn.o_proj
+model.layers.42.self_attn.rotary_emb
+model.layers.42.mlp
+model.layers.42.mlp.gate_proj
+model.layers.42.mlp.up_proj
+model.layers.42.mlp.down_proj
+model.layers.42.mlp.act_fn
+model.layers.42.input_layernorm
+model.layers.42.post_attention_layernorm
+model.layers.43
+model.layers.43.self_attn
+model.layers.43.self_attn.q_proj
+model.layers.43.self_attn.k_proj
+model.layers.43.self_attn.v_proj
+model.layers.43.self_attn.o_proj
+model.layers.43.self_attn.rotary_emb
+model.layers.43.mlp
+model.layers.43.mlp.gate_proj
+model.layers.43.mlp.up_proj
+model.layers.43.mlp.down_proj
+model.layers.43.mlp.act_fn
+model.layers.43.input_layernorm
+model.layers.43.post_attention_layernorm
+model.layers.44
+model.layers.44.self_attn
+model.layers.44.self_attn.q_proj
+model.layers.44.self_attn.k_proj
+model.layers.44.self_attn.v_proj
+model.layers.44.self_attn.o_proj
+model.layers.44.self_attn.rotary_emb
+model.layers.44.mlp
+model.layers.44.mlp.gate_proj
+model.layers.44.mlp.up_proj
+model.layers.44.mlp.down_proj
+model.layers.44.mlp.act_fn
+model.layers.44.input_layernorm
+model.layers.44.post_attention_layernorm
+model.layers.45
+model.layers.45.self_attn
+model.layers.45.self_attn.q_proj
+model.layers.45.self_attn.k_proj
+model.layers.45.self_attn.v_proj
+model.layers.45.self_attn.o_proj
+model.layers.45.self_attn.rotary_emb
+model.layers.45.mlp
+model.layers.45.mlp.gate_proj
+model.layers.45.mlp.up_proj
+model.layers.45.mlp.down_proj
+model.layers.45.mlp.act_fn
+model.layers.45.input_layernorm
+model.layers.45.post_attention_layernorm
+model.layers.46
+model.layers.46.self_attn
+model.layers.46.self_attn.q_proj
+model.layers.46.self_attn.k_proj
+model.layers.46.self_attn.v_proj
+model.layers.46.self_attn.o_proj
+model.layers.46.self_attn.rotary_emb
+model.layers.46.mlp
+model.layers.46.mlp.gate_proj
+model.layers.46.mlp.up_proj
+model.layers.46.mlp.down_proj
+model.layers.46.mlp.act_fn
+model.layers.46.input_layernorm
+model.layers.46.post_attention_layernorm
+model.layers.47
+model.layers.47.self_attn
+model.layers.47.self_attn.q_proj
+model.layers.47.self_attn.k_proj
+model.layers.47.self_attn.v_proj
+model.layers.47.self_attn.o_proj
+model.layers.47.self_attn.rotary_emb
+model.layers.47.mlp
+model.layers.47.mlp.gate_proj
+model.layers.47.mlp.up_proj
+model.layers.47.mlp.down_proj
+model.layers.47.mlp.act_fn
+model.layers.47.input_layernorm
+model.layers.47.post_attention_layernorm
+model.layers.48
+model.layers.48.self_attn
+model.layers.48.self_attn.q_proj
+model.layers.48.self_attn.k_proj
+model.layers.48.self_attn.v_proj
+model.layers.48.self_attn.o_proj
+model.layers.48.self_attn.rotary_emb
+model.layers.48.mlp
+model.layers.48.mlp.gate_proj
+model.layers.48.mlp.up_proj
+model.layers.48.mlp.down_proj
+model.layers.48.mlp.act_fn
+model.layers.48.input_layernorm
+model.layers.48.post_attention_layernorm
+model.layers.49
+model.layers.49.self_attn
+model.layers.49.self_attn.q_proj
+model.layers.49.self_attn.k_proj
+model.layers.49.self_attn.v_proj
+model.layers.49.self_attn.o_proj
+model.layers.49.self_attn.rotary_emb
+model.layers.49.mlp
+model.layers.49.mlp.gate_proj
+model.layers.49.mlp.up_proj
+model.layers.49.mlp.down_proj
+model.layers.49.mlp.act_fn
+model.layers.49.input_layernorm
+model.layers.49.post_attention_layernorm
+model.layers.50
+model.layers.50.self_attn
+model.layers.50.self_attn.q_proj
+model.layers.50.self_attn.k_proj
+model.layers.50.self_attn.v_proj
+model.layers.50.self_attn.o_proj
+model.layers.50.self_attn.rotary_emb
+model.layers.50.mlp
+model.layers.50.mlp.gate_proj
+model.layers.50.mlp.up_proj
+model.layers.50.mlp.down_proj
+model.layers.50.mlp.act_fn
+model.layers.50.input_layernorm
+model.layers.50.post_attention_layernorm
+model.layers.51
+model.layers.51.self_attn
+model.layers.51.self_attn.q_proj
+model.layers.51.self_attn.k_proj
+model.layers.51.self_attn.v_proj
+model.layers.51.self_attn.o_proj
+model.layers.51.self_attn.rotary_emb
+model.layers.51.mlp
+model.layers.51.mlp.gate_proj
+model.layers.51.mlp.up_proj
+model.layers.51.mlp.down_proj
+model.layers.51.mlp.act_fn
+model.layers.51.input_layernorm
+model.layers.51.post_attention_layernorm
+model.layers.52
+model.layers.52.self_attn
+model.layers.52.self_attn.q_proj
+model.layers.52.self_attn.k_proj
+model.layers.52.self_attn.v_proj
+model.layers.52.self_attn.o_proj
+model.layers.52.self_attn.rotary_emb
+model.layers.52.mlp
+model.layers.52.mlp.gate_proj
+model.layers.52.mlp.up_proj
+model.layers.52.mlp.down_proj
+model.layers.52.mlp.act_fn
+model.layers.52.input_layernorm
+model.layers.52.post_attention_layernorm
+model.layers.53
+model.layers.53.self_attn
+model.layers.53.self_attn.q_proj
+model.layers.53.self_attn.k_proj
+model.layers.53.self_attn.v_proj
+model.layers.53.self_attn.o_proj
+model.layers.53.self_attn.rotary_emb
+model.layers.53.mlp
+model.layers.53.mlp.gate_proj
+model.layers.53.mlp.up_proj
+model.layers.53.mlp.down_proj
+model.layers.53.mlp.act_fn
+model.layers.53.input_layernorm
+model.layers.53.post_attention_layernorm
+model.layers.54
+model.layers.54.self_attn
+model.layers.54.self_attn.q_proj
+model.layers.54.self_attn.k_proj
+model.layers.54.self_attn.v_proj
+model.layers.54.self_attn.o_proj
+model.layers.54.self_attn.rotary_emb
+model.layers.54.mlp
+model.layers.54.mlp.gate_proj
+model.layers.54.mlp.up_proj
+model.layers.54.mlp.down_proj
+model.layers.54.mlp.act_fn
+model.layers.54.input_layernorm
+model.layers.54.post_attention_layernorm
+model.layers.55
+model.layers.55.self_attn
+model.layers.55.self_attn.q_proj
+model.layers.55.self_attn.k_proj
+model.layers.55.self_attn.v_proj
+model.layers.55.self_attn.o_proj
+model.layers.55.self_attn.rotary_emb
+model.layers.55.mlp
+model.layers.55.mlp.gate_proj
+model.layers.55.mlp.up_proj
+model.layers.55.mlp.down_proj
+model.layers.55.mlp.act_fn
+model.layers.55.input_layernorm
+model.layers.55.post_attention_layernorm
+model.layers.56
+model.layers.56.self_attn
+model.layers.56.self_attn.q_proj
+model.layers.56.self_attn.k_proj
+model.layers.56.self_attn.v_proj
+model.layers.56.self_attn.o_proj
+model.layers.56.self_attn.rotary_emb
+model.layers.56.mlp
+model.layers.56.mlp.gate_proj
+model.layers.56.mlp.up_proj
+model.layers.56.mlp.down_proj
+model.layers.56.mlp.act_fn
+model.layers.56.input_layernorm
+model.layers.56.post_attention_layernorm
+model.layers.57
+model.layers.57.self_attn
+model.layers.57.self_attn.q_proj
+model.layers.57.self_attn.k_proj
+model.layers.57.self_attn.v_proj
+model.layers.57.self_attn.o_proj
+model.layers.57.self_attn.rotary_emb
+model.layers.57.mlp
+model.layers.57.mlp.gate_proj
+model.layers.57.mlp.up_proj
+model.layers.57.mlp.down_proj
+model.layers.57.mlp.act_fn
+model.layers.57.input_layernorm
+model.layers.57.post_attention_layernorm
+model.layers.58
+model.layers.58.self_attn
+model.layers.58.self_attn.q_proj
+model.layers.58.self_attn.k_proj
+model.layers.58.self_attn.v_proj
+model.layers.58.self_attn.o_proj
+model.layers.58.self_attn.rotary_emb
+model.layers.58.mlp
+model.layers.58.mlp.gate_proj
+model.layers.58.mlp.up_proj
+model.layers.58.mlp.down_proj
+model.layers.58.mlp.act_fn
+model.layers.58.input_layernorm
+model.layers.58.post_attention_layernorm
+model.layers.59
+model.layers.59.self_attn
+model.layers.59.self_attn.q_proj
+model.layers.59.self_attn.k_proj
+model.layers.59.self_attn.v_proj
+model.layers.59.self_attn.o_proj
+model.layers.59.self_attn.rotary_emb
+model.layers.59.mlp
+model.layers.59.mlp.gate_proj
+model.layers.59.mlp.up_proj
+model.layers.59.mlp.down_proj
+model.layers.59.mlp.act_fn
+model.layers.59.input_layernorm
+model.layers.59.post_attention_layernorm
+model.layers.60
+model.layers.60.self_attn
+model.layers.60.self_attn.q_proj
+model.layers.60.self_attn.k_proj
+model.layers.60.self_attn.v_proj
+model.layers.60.self_attn.o_proj
+model.layers.60.self_attn.rotary_emb
+model.layers.60.mlp
+model.layers.60.mlp.gate_proj
+model.layers.60.mlp.up_proj
+model.layers.60.mlp.down_proj
+model.layers.60.mlp.act_fn
+model.layers.60.input_layernorm
+model.layers.60.post_attention_layernorm
+model.layers.61
+model.layers.61.self_attn
+model.layers.61.self_attn.q_proj
+model.layers.61.self_attn.k_proj
+model.layers.61.self_attn.v_proj
+model.layers.61.self_attn.o_proj
+model.layers.61.self_attn.rotary_emb
+model.layers.61.mlp
+model.layers.61.mlp.gate_proj
+model.layers.61.mlp.up_proj
+model.layers.61.mlp.down_proj
+model.layers.61.mlp.act_fn
+model.layers.61.input_layernorm
+model.layers.61.post_attention_layernorm
+model.layers.62
+model.layers.62.self_attn
+model.layers.62.self_attn.q_proj
+model.layers.62.self_attn.k_proj
+model.layers.62.self_attn.v_proj
+model.layers.62.self_attn.o_proj
+model.layers.62.self_attn.rotary_emb
+model.layers.62.mlp
+model.layers.62.mlp.gate_proj
+model.layers.62.mlp.up_proj
+model.layers.62.mlp.down_proj
+model.layers.62.mlp.act_fn
+model.layers.62.input_layernorm
+model.layers.62.post_attention_layernorm
+model.layers.63
+model.layers.63.self_attn
+model.layers.63.self_attn.q_proj
+model.layers.63.self_attn.k_proj
+model.layers.63.self_attn.v_proj
+model.layers.63.self_attn.o_proj
+model.layers.63.self_attn.rotary_emb
+model.layers.63.mlp
+✅ 成功为最后一层MLP (model.layers.63.mlp) 设置hook
+输入形状: torch.Size([1, 1360])
+生成的响应: ### Reconstructed Question-Answer Pairs
+
+#### **1. Question:**
+Find all \( c \) in \( \mathbb{Z}_3[x] / (x^2 + c) \) such that \( \mathbb{Z}_3[x] / (x^2 + c) \) is a field.
+
+**Options:**
+A. 0  
+B. 1  
+C. 2  
+D. 3  
+
+**Answer:** 1  
+
+**Explanation:**
+For \( \mathbb{Z}_3[x] / (x^2 + c) \) to be a field, the polynomial \( x^2 + c \) must be irreducible over \( \mathbb{Z}_3 \). A polynomial of degree 2 is irreducible if it has no roots in \( \mathbb{Z}_3 \).
+
+- Check for roots in \( \mathbb{Z}_3 = \{0, 1, 2\} \):
+  - For \( c = 0 \): \( x^2 + 0 = x^2 \). Roots are \( x = 0 \). Not irreducible.
+  - For \( c = 1 \): \( x^2 + 1 \). Check \( x = 0, 1, 2 \):
+    - \( 0^2 + 1 = 1 \neq 0 \)
+    - \( 1^2 + 1 = 2 \neq 0 \)
+    - \( 2^2 + 1 = 4 + 1 = 5 \equiv 2 \pmod{3} \neq 0 \)
+    No roots, so \( x^2 + 1 \) is irreducible.
+  - For \( c = 2 \): \( x^2 + 2 \). Check \( x = 0, 1, 2 \):
+    - \( 0^2 + 2 = 2 \neq 0 \)
+    - \( 1^2 + 2 = 3 \equiv 0 \pmod{3} \)
+    Has a root, so not irreducible.
+  - For \( c = 3 \): Since \( 3 \equiv 0 \pmod{3} \), this is the same as \( c = 0 \), which is not irreducible.
+
+Thus, the only value of \( c \) that makes \( x^2 + c \) irreducible is \( c = 1 \).
+
+#### **2. Question:**
+Statement 1: If \( aH \) is an element of a factor group, then \( |aH| \) divides \( |a| \).  
+Statement 2: If \( H \) and \( K \) are subgroups of \( G \), then \( HK \) is a subgroup of \( G \).
+
+**Options:**
+A. True, True  
+B. False, False  
+C. True, False  
+D. False, True  
+
+**Answer:** 1  
+
+**Explanation:**
+- **Statement 1:** This statement is true. In a factor group \( G/H \), the order of the coset \( aH \) divides the order of \( a \) in \( G \). This follows from Lagrange's theorem applied to the factor group.
+- **Statement 2:** This statement is false. The product \( HK \) of two subgroups \( H \) and \( K \) of \( G \) is not necessarily a subgroup unless \( HK = KH \) (i.e., \( H \) and \( K \) commute). Without this condition, \( HK \) may not satisfy the closure property required for a subgroup.
+
+Thus, both statements are true, so the correct answer is "True, True".
+
+#### **3. Question:**
+______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws.
+
+**Options:**
+A. Employee rights  
+B. Employee rights  
+C. Employer duties  
+D. Employee duties  
+
+**Answer:** 3  
+
+**Explanation:**
+The obligations of workers towards their employer are referred to as "employee duties." These include fulfilling job responsibilities, adhering to company policies, and maintaining professional conduct, among other things. Employee rights, on the other hand, refer to the protections and benefits afforded to employees by law or contract.
+
+#### **4. Question:**
+______ is an employee's preferred ratio between work-related and non-work-related activities, which, due to intensification of work and technological shifts, has become a hotly contested issue in recent years.
+
+**Options:**
+A. Presenteeism  
+B. Absenteeism  
+C. Work-play balance  
+D. Work-life balance  
+
+**Answer:** 3  
+
+**Explanation:**
+The term that describes the preferred ratio between work-related and non-work-related activities is "work-life
+收集到 1024 个forward pass的activations
+最终activations形状: torch.Size([1024, 5120])
+Activations形状: torch.Size([1024, 5120])
+Mean activation: -0.1553
+Std activation: 22.7500
+Min activation: -1344.0000
+Max activation: 1576.0000
+
+每个生成token的activation统计:
+Token 0: mean=-0.2100, std=23.6250
+Token 1: mean=-0.1787, std=25.7500
+Token 2: mean=0.0193, std=23.5000
+Token 3: mean=-0.1338, std=27.3750
+Token 4: mean=-0.2354, std=25.1250
+Token 5: mean=-0.4121, std=25.2500
+Token 6: mean=-0.0742, std=26.8750
+Token 7: mean=0.2246, std=24.5000
+Token 8: mean=-0.2285, std=25.1250
+Token 9: mean=-0.1953, std=23.1250
+Token 10: mean=-0.2148, std=24.1250
+Token 11: mean=-0.2129, std=24.1250
+Token 12: mean=-0.2412, std=23.0000
+Token 13: mean=-0.2578, std=27.7500
+Token 14: mean=-0.1660, std=26.6250
+Token 15: mean=-0.1089, std=29.2500
+Token 16: mean=-0.1475, std=24.7500
+Token 17: mean=-0.1260, std=24.6250
+Token 18: mean=-0.1846, std=25.6250
+Token 19: mean=-0.0383, std=22.1250
+Token 20: mean=0.0229, std=24.3750
+Token 21: mean=-0.0625, std=23.5000
+Token 22: mean=-0.1699, std=28.0000
+Token 23: mean=-0.1650, std=27.5000
+Token 24: mean=-0.0039, std=29.1250
+Token 25: mean=-0.0957, std=25.6250
+Token 26: mean=-0.0796, std=16.6250
+Token 27: mean=-0.0277, std=20.8750
+Token 28: mean=-0.1836, std=19.2500
+Token 29: mean=0.0913, std=16.8750
+Token 30: mean=-0.0162, std=25.2500
+Token 31: mean=0.0583, std=25.5000
+Token 32: mean=0.1069, std=24.5000
+Token 33: mean=0.2070, std=31.2500
+Token 34: mean=0.0520, std=28.5000
+Token 35: mean=-0.0605, std=25.7500
+Token 36: mean=0.0361, std=26.2500
+Token 37: mean=0.0942, std=24.8750
+Token 38: mean=0.0635, std=24.1250
+Token 39: mean=-0.0250, std=22.7500
+Token 40: mean=-0.1011, std=24.6250
+Token 41: mean=-0.0219, std=23.2500
+Token 42: mean=-0.0640, std=22.1250
+Token 43: mean=-0.1201, std=26.2500
+Token 44: mean=-0.2021, std=22.7500
+Token 45: mean=-0.0557, std=23.6250
+Token 46: mean=0.0020, std=28.8750
+Token 47: mean=-0.1167, std=27.8750
+Token 48: mean=-0.1299, std=11.8750
+Token 49: mean=-0.1235, std=16.8750
+Token 50: mean=-0.1865, std=16.5000
+Token 51: mean=-0.0952, std=16.7500
+Token 52: mean=-0.0500, std=13.4375
+Token 53: mean=-0.0127, std=20.5000
+Token 54: mean=-0.0444, std=18.7500
+Token 55: mean=0.1260, std=25.3750
+Token 56: mean=-0.0581, std=26.7500
+Token 57: mean=-0.1836, std=18.7500
+Token 58: mean=-0.0845, std=17.3750
+Token 59: mean=-0.2715, std=15.7500
+Token 60: mean=-0.0286, std=18.8750
+Token 61: mean=-0.0884, std=20.2500
+Token 62: mean=-0.1855, std=20.8750
+Token 63: mean=-0.0840, std=22.1250
+Token 64: mean=-0.1089, std=20.3750
+Token 65: mean=-0.2754, std=26.1250
+Token 66: mean=-0.2832, std=26.2500
+Token 67: mean=-0.1973, std=28.6250
+Token 68: mean=-0.0708, std=22.7500
+Token 69: mean=-0.1196, std=23.7500
+Token 70: mean=-0.1885, std=24.1250
+Token 71: mean=-0.2051, std=24.8750
+Token 72: mean=-0.1602, std=26.6250
+Token 73: mean=-0.1309, std=23.2500
+Token 74: mean=-0.2480, std=19.7500
+Token 75: mean=-0.1494, std=24.3750
+Token 76: mean=-0.0190, std=19.7500
+Token 77: mean=-0.0908, std=22.1250
+Token 78: mean=-0.1318, std=20.5000
+Token 79: mean=-0.2139, std=15.3125
+Token 80: mean=-0.0918, std=21.6250
+Token 81: mean=-0.1719, std=15.0000
+Token 82: mean=-0.0503, std=22.2500
+Token 83: mean=-0.1230, std=16.0000
+Token 84: mean=-0.3359, std=13.8750
+Token 85: mean=-0.1680, std=21.8750
+Token 86: mean=0.0019, std=11.9375
+Token 87: mean=-0.0588, std=20.5000
+Token 88: mean=-0.1748, std=18.8750
+Token 89: mean=-0.2021, std=14.5625
+Token 90: mean=-0.0918, std=24.3750
+Token 91: mean=-0.0283, std=13.0000
+Token 92: mean=0.0371, std=21.3750
+Token 93: mean=-0.1592, std=24.8750
+Token 94: mean=-0.2676, std=25.5000
+Token 95: mean=-0.2383, std=25.2500
+Token 96: mean=-0.0674, std=27.2500
+Token 97: mean=0.1221, std=24.3750
+Token 98: mean=-0.0067, std=24.1250
+Token 99: mean=-0.1230, std=24.0000
+Token 100: mean=-0.2852, std=25.1250
+Token 101: mean=-0.2295, std=24.1250
+Token 102: mean=-0.1104, std=27.2500
+Token 103: mean=-0.1729, std=24.0000
+Token 104: mean=-0.1099, std=26.5000
+Token 105: mean=-0.0452, std=28.2500
+Token 106: mean=-0.1738, std=27.2500
+Token 107: mean=-0.1650, std=13.5000
+Token 108: mean=-0.1680, std=16.3750
+Token 109: mean=-0.2891, std=18.6250
+Token 110: mean=-0.1621, std=17.8750
+Token 111: mean=-0.1299, std=14.0625
+Token 112: mean=-0.1270, std=21.2500
+Token 113: mean=-0.1191, std=19.0000
+Token 114: mean=-0.0074, std=24.1250
+Token 115: mean=-0.1885, std=25.8750
+Token 116: mean=-0.1650, std=21.3750
+Token 117: mean=-0.1562, std=17.7500
+Token 118: mean=-0.1069, std=9.3125
+Token 119: mean=-0.1245, std=19.1250
+Token 120: mean=-0.1670, std=22.7500
+Token 121: mean=-0.1777, std=21.5000
+Token 122: mean=-0.0728, std=21.2500
+Token 123: mean=-0.1348, std=21.7500
+Token 124: mean=-0.2441, std=25.5000
+Token 125: mean=-0.2793, std=26.7500
+Token 126: mean=-0.3398, std=25.8750
+Token 127: mean=-0.2598, std=29.3750
+Token 128: mean=-0.2178, std=23.7500
+Token 129: mean=-0.1445, std=24.6250
+Token 130: mean=-0.2324, std=27.0000
+Token 131: mean=-0.2676, std=26.3750
+Token 132: mean=-0.1187, std=22.7500
+Token 133: mean=-0.1455, std=18.7500
+Token 134: mean=-0.1016, std=9.5000
+Token 135: mean=-0.1021, std=18.6250
+Token 136: mean=-0.1572, std=22.8750
+Token 137: mean=-0.0405, std=21.5000
+Token 138: mean=-0.1025, std=22.8750
+Token 139: mean=-0.1553, std=24.8750
+Token 140: mean=-0.2617, std=27.8750
+Token 141: mean=-0.2832, std=30.0000
+Token 142: mean=-0.1250, std=19.1250
+Token 143: mean=-0.1338, std=24.1250
+Token 144: mean=-0.1729, std=25.6250
+Token 145: mean=-0.1270, std=26.5000
+Token 146: mean=-0.1455, std=23.2500
+Token 147: mean=-0.1650, std=12.0625
+Token 148: mean=-0.1699, std=17.5000
+Token 149: mean=-0.3457, std=17.2500
+Token 150: mean=-0.1973, std=19.6250
+Token 151: mean=-0.1641, std=13.1875
+Token 152: mean=0.0012, std=22.3750
+Token 153: mean=-0.0601, std=19.8750
+Token 154: mean=-0.1084, std=24.1250
+Token 155: mean=-0.1455, std=25.5000
+Token 156: mean=-0.0938, std=24.1250
+Token 157: mean=-0.1592, std=26.2500
+Token 158: mean=-0.1250, std=22.5000
+Token 159: mean=-0.0069, std=16.7500
+Token 160: mean=-0.1445, std=24.1250
+Token 161: mean=-0.2383, std=28.1250
+Token 162: mean=-0.1455, std=19.2500
+Token 163: mean=-0.1235, std=23.3750
+Token 164: mean=-0.2520, std=25.1250
+Token 165: mean=-0.2910, std=28.2500
+Token 166: mean=-0.3613, std=27.3750
+Token 167: mean=-0.1914, std=27.2500
+Token 168: mean=-0.1738, std=24.7500
+Token 169: mean=-0.1699, std=24.2500
+Token 170: mean=-0.1191, std=27.5000
+Token 171: mean=-0.1553, std=24.5000
+Token 172: mean=-0.1943, std=11.8125
+Token 173: mean=-0.1895, std=18.0000
+Token 174: mean=-0.3203, std=18.0000
+Token 175: mean=-0.2910, std=20.7500
+Token 176: mean=-0.1040, std=12.1250
+Token 177: mean=0.0410, std=23.6250
+Token 178: mean=-0.0439, std=19.2500
+Token 179: mean=-0.1934, std=23.2500
+Token 180: mean=-0.1777, std=26.2500
+Token 181: mean=-0.1426, std=25.7500
+Token 182: mean=-0.1465, std=24.8750
+Token 183: mean=-0.0608, std=24.3750
+Token 184: mean=-0.1318, std=27.2500
+Token 185: mean=-0.0337, std=26.3750
+Token 186: mean=-0.1147, std=27.0000
+Token 187: mean=-0.2090, std=15.1250
+Token 188: mean=-0.1670, std=17.8750
+Token 189: mean=-0.2637, std=16.6250
+Token 190: mean=-0.2812, std=21.0000
+Token 191: mean=-0.1816, std=11.2500
+Token 192: mean=0.0654, std=25.2500
+Token 193: mean=-0.1318, std=26.1250
+Token 194: mean=-0.1709, std=23.7500
+Token 195: mean=-0.2754, std=22.3750
+Token 196: mean=-0.2520, std=20.6250
+Token 197: mean=-0.1562, std=20.5000
+Token 198: mean=-0.1387, std=13.6250
+Token 199: mean=-0.3164, std=18.3750
+Token 200: mean=-0.1787, std=19.1250
+Token 201: mean=-0.0781, std=12.1875
+Token 202: mean=-0.1055, std=22.0000
+Token 203: mean=0.0479, std=20.7500
+Token 204: mean=-0.0317, std=24.6250
+Token 205: mean=-0.0596, std=21.0000
+Token 206: mean=-0.1230, std=20.7500
+Token 207: mean=-0.2129, std=23.3750
+Token 208: mean=-0.1484, std=27.2500
+Token 209: mean=-0.1631, std=24.8750
+Token 210: mean=-0.0688, std=18.5000
+Token 211: mean=-0.1387, std=20.6250
+Token 212: mean=-0.0625, std=19.8750
+Token 213: mean=-0.1729, std=10.6250
+Token 214: mean=0.0090, std=22.2500
+Token 215: mean=-0.1641, std=20.5000
+Token 216: mean=-0.1943, std=27.5000
+Token 217: mean=-0.1196, std=24.3750
+Token 218: mean=-0.1650, std=21.6250
+Token 219: mean=-0.1289, std=16.2500
+Token 220: mean=0.0244, std=19.3750
+Token 221: mean=-0.1455, std=19.3750
+Token 222: mean=-0.1514, std=14.2500
+Token 223: mean=-0.0918, std=21.0000
+Token 224: mean=-0.1670, std=21.8750
+Token 225: mean=-0.1357, std=21.3750
+Token 226: mean=-0.1011, std=12.6250
+Token 227: mean=0.0747, std=19.6250
+Token 228: mean=-0.0193, std=22.1250
+Token 229: mean=-0.0718, std=25.8750
+Token 230: mean=-0.1562, std=23.7500
+Token 231: mean=-0.1650, std=22.3750
+Token 232: mean=-0.1699, std=19.7500
+Token 233: mean=-0.2227, std=21.5000
+Token 234: mean=-0.1641, std=22.8750
+Token 235: mean=-0.1816, std=13.8125
+Token 236: mean=0.0625, std=19.1250
+Token 237: mean=-0.0021, std=21.8750
+Token 238: mean=-0.1650, std=27.8750
+Token 239: mean=-0.1768, std=27.7500
+Token 240: mean=-0.1016, std=18.8750
+Token 241: mean=-0.0859, std=23.7500
+Token 242: mean=-0.1367, std=17.7500
+Token 243: mean=-0.0630, std=16.8750
+Token 244: mean=-0.2793, std=26.3750
+Token 245: mean=-0.2598, std=21.6250
+Token 246: mean=-0.2197, std=22.7500
+Token 247: mean=-0.2402, std=16.1250
+Token 248: mean=-0.0967, std=17.5000
+Token 249: mean=-0.1021, std=11.1250
+Token 250: mean=-0.0747, std=21.1250
+Token 251: mean=-0.2949, std=19.8750
+Token 252: mean=-0.1963, std=27.5000
+Token 253: mean=-0.1465, std=23.6250
+Token 254: mean=-0.1914, std=17.0000
+Token 255: mean=-0.1328, std=10.6875
+Token 256: mean=-0.1133, std=18.8750
+Token 257: mean=-0.1738, std=21.8750
+Token 258: mean=-0.1289, std=12.8750
+Token 259: mean=-0.0327, std=21.2500
+Token 260: mean=-0.0923, std=23.0000
+Token 261: mean=-0.1670, std=26.5000
+Token 262: mean=-0.0767, std=24.7500
+Token 263: mean=-0.1270, std=21.2500
+Token 264: mean=-0.1055, std=23.3750
+Token 265: mean=-0.1846, std=23.5000
+Token 266: mean=-0.2266, std=16.5000
+Token 267: mean=-0.1064, std=23.3750
+Token 268: mean=-0.1650, std=21.8750
+Token 269: mean=-0.1299, std=13.5000
+Token 270: mean=-0.2559, std=21.0000
+Token 271: mean=-0.1250, std=21.3750
+Token 272: mean=-0.0737, std=12.2500
+Token 273: mean=-0.0505, std=24.0000
+Token 274: mean=-0.0791, std=23.7500
+Token 275: mean=-0.1426, std=16.3750
+Token 276: mean=-0.1875, std=24.0000
+Token 277: mean=-0.1924, std=26.3750
+Token 278: mean=-0.1797, std=20.8750
+Token 279: mean=-0.2227, std=21.1250
+Token 280: mean=-0.1377, std=24.0000
+Token 281: mean=-0.1230, std=16.6250
+Token 282: mean=-0.0825, std=20.8750
+Token 283: mean=-0.1641, std=21.7500
+Token 284: mean=-0.2148, std=13.8125
+Token 285: mean=-0.1992, std=23.3750
+Token 286: mean=-0.1523, std=21.6250
+Token 287: mean=-0.2090, std=13.5625
+Token 288: mean=-0.0913, std=25.3750
+Token 289: mean=-0.1147, std=24.3750
+Token 290: mean=-0.1494, std=17.3750
+Token 291: mean=-0.1748, std=20.6250
+Token 292: mean=-0.2246, std=12.3750
+Token 293: mean=-0.0620, std=24.1250
+Token 294: mean=-0.0962, std=24.1250
+Token 295: mean=-0.1865, std=16.3750
+Token 296: mean=-0.0933, std=16.5000
+Token 297: mean=-0.2373, std=25.8750
+Token 298: mean=-0.2012, std=24.1250
+Token 299: mean=-0.1729, std=15.1875
+Token 300: mean=-0.1982, std=15.9375
+Token 301: mean=-0.1113, std=11.8125
+Token 302: mean=-0.1523, std=18.6250
+Token 303: mean=-0.1904, std=17.0000
+Token 304: mean=-0.1846, std=12.8125
+Token 305: mean=-0.2812, std=18.3750
+Token 306: mean=-0.1475, std=19.0000
+Token 307: mean=-0.1191, std=11.1875
+Token 308: mean=-0.0918, std=24.6250
+Token 309: mean=-0.1602, std=25.8750
+Token 310: mean=-0.2148, std=13.4375
+Token 311: mean=-0.1641, std=13.2500
+Token 312: mean=-0.3145, std=13.6875
+Token 313: mean=-0.0962, std=21.6250
+Token 314: mean=-0.0928, std=21.1250
+Token 315: mean=-0.2295, std=13.8125
+Token 316: mean=-0.1943, std=14.3125
+Token 317: mean=-0.2100, std=25.1250
+Token 318: mean=-0.1768, std=22.7500
+Token 319: mean=-0.1079, std=14.6875
+Token 320: mean=-0.2021, std=18.1250
+Token 321: mean=-0.1172, std=11.0625
+Token 322: mean=-0.1250, std=20.3750
+Token 323: mean=-0.1533, std=16.1250
+Token 324: mean=-0.1426, std=11.6250
+Token 325: mean=-0.2422, std=21.5000
+Token 326: mean=-0.1426, std=22.6250
+Token 327: mean=-0.1680, std=11.1875
+Token 328: mean=-0.0254, std=22.1250
+Token 329: mean=-0.0957, std=20.6250
+Token 330: mean=-0.0972, std=11.4375
+Token 331: mean=-0.1123, std=23.2500
+Token 332: mean=-0.0830, std=17.7500
+Token 333: mean=-0.0879, std=9.6250
+Token 334: mean=-0.0493, std=25.0000
+Token 335: mean=-0.1436, std=24.5000
+Token 336: mean=-0.1152, std=18.8750
+Token 337: mean=-0.0962, std=8.8750
+Token 338: mean=-0.0510, std=23.8750
+Token 339: mean=-0.1992, std=23.2500
+Token 340: mean=0.0957, std=16.7500
+Token 341: mean=-0.1572, std=23.1250
+Token 342: mean=-0.1553, std=18.3750
+Token 343: mean=0.0574, std=20.5000
+Token 344: mean=0.0044, std=26.6250
+Token 345: mean=-0.1157, std=24.0000
+Token 346: mean=-0.1582, std=14.0625
+Token 347: mean=-0.1338, std=14.2500
+Token 348: mean=-0.2793, std=12.8125
+Token 349: mean=-0.0352, std=20.7500
+Token 350: mean=-0.0752, std=21.3750
+Token 351: mean=-0.1001, std=18.3750
+Token 352: mean=-0.1611, std=24.8750
+Token 353: mean=-0.1475, std=27.7500
+Token 354: mean=-0.1455, std=22.6250
+Token 355: mean=-0.2373, std=26.1250
+Token 356: mean=-0.2441, std=23.2500
+Token 357: mean=-0.1738, std=23.6250
+Token 358: mean=-0.1885, std=18.0000
+Token 359: mean=-0.0688, std=9.0625
+Token 360: mean=-0.1387, std=20.2500
+Token 361: mean=-0.1982, std=21.2500
+Token 362: mean=-0.1104, std=13.0625
+Token 363: mean=-0.1562, std=23.2500
+Token 364: mean=-0.1729, std=22.5000
+Token 365: mean=-0.3125, std=27.2500
+Token 366: mean=-0.2490, std=29.2500
+Token 367: mean=-0.1133, std=18.7500
+Token 368: mean=-0.0781, std=22.0000
+Token 369: mean=-0.1367, std=20.8750
+Token 370: mean=-0.1230, std=17.8750
+Token 371: mean=-0.2754, std=24.2500
+Token 372: mean=-0.2617, std=21.7500
+Token 373: mean=-0.2480, std=20.6250
+Token 374: mean=-0.2676, std=15.1875
+Token 375: mean=-0.1621, std=17.5000
+Token 376: mean=-0.0986, std=10.3125
+Token 377: mean=-0.1113, std=19.6250
+Token 378: mean=-0.2715, std=20.3750
+Token 379: mean=-0.2520, std=25.6250
+Token 380: mean=-0.1641, std=20.6250
+Token 381: mean=-0.2451, std=13.3125
+Token 382: mean=-0.0747, std=7.9375
+Token 383: mean=-0.1484, std=17.3750
+Token 384: mean=-0.2119, std=19.3750
+Token 385: mean=-0.0820, std=12.7500
+Token 386: mean=-0.0889, std=21.2500
+Token 387: mean=-0.1895, std=21.0000
+Token 388: mean=-0.2559, std=26.5000
+Token 389: mean=-0.2217, std=25.5000
+Token 390: mean=-0.2354, std=22.7500
+Token 391: mean=-0.2871, std=15.3750
+Token 392: mean=-0.1797, std=16.3750
+Token 393: mean=-0.2578, std=12.3125
+Token 394: mean=-0.2598, std=15.9375
+Token 395: mean=-0.1465, std=16.3750
+Token 396: mean=-0.1455, std=11.1875
+Token 397: mean=-0.3262, std=14.3125
+Token 398: mean=-0.1855, std=14.3750
+Token 399: mean=-0.0811, std=11.3125
+Token 400: mean=-0.1826, std=18.6250
+Token 401: mean=-0.1426, std=21.0000
+Token 402: mean=-0.2100, std=14.1875
+Token 403: mean=-0.1025, std=19.1250
+Token 404: mean=-0.2432, std=25.0000
+Token 405: mean=-0.2266, std=22.0000
+Token 406: mean=-0.2031, std=14.0000
+Token 407: mean=-0.2266, std=15.9375
+Token 408: mean=-0.1475, std=9.5625
+Token 409: mean=-0.1465, std=18.7500
+Token 410: mean=-0.2520, std=17.3750
+Token 411: mean=-0.1143, std=11.6875
+Token 412: mean=-0.2490, std=19.2500
+Token 413: mean=-0.2227, std=21.3750
+Token 414: mean=-0.1377, std=14.0000
+Token 415: mean=-0.0615, std=24.7500
+Token 416: mean=-0.1553, std=24.5000
+Token 417: mean=-0.2051, std=13.7500
+Token 418: mean=-0.1826, std=12.7500
+Token 419: mean=-0.1934, std=10.4375
+Token 420: mean=-0.1177, std=21.0000
+Token 421: mean=-0.0854, std=19.7500
+Token 422: mean=-0.1777, std=14.4375
+Token 423: mean=-0.0840, std=18.1250
+Token 424: mean=-0.2148, std=24.2500
+Token 425: mean=-0.1719, std=19.0000
+Token 426: mean=-0.1982, std=11.2500
+Token 427: mean=-0.2285, std=14.1875
+Token 428: mean=-0.0991, std=8.6250
+Token 429: mean=-0.1631, std=17.1250
+Token 430: mean=-0.2324, std=14.0000
+Token 431: mean=-0.1309, std=10.9375
+Token 432: mean=-0.2852, std=15.6875
+Token 433: mean=-0.1748, std=17.6250
+Token 434: mean=-0.0767, std=11.8750
+Token 435: mean=-0.0864, std=24.0000
+Token 436: mean=-0.1660, std=23.2500
+Token 437: mean=-0.1836, std=16.2500
+Token 438: mean=-0.2324, std=11.8125
+Token 439: mean=-0.0698, std=23.5000
+Token 440: mean=-0.0510, std=25.1250
+Token 441: mean=-0.1377, std=19.6250
+Token 442: mean=-0.1719, std=16.0000
+Token 443: mean=-0.1426, std=12.1875
+Token 444: mean=0.0659, std=19.3750
+Token 445: mean=0.0381, std=20.2500
+Token 446: mean=-0.0117, std=21.6250
+Token 447: mean=-0.0923, std=19.8750
+Token 448: mean=-0.0476, std=26.0000
+Token 449: mean=-0.2041, std=24.8750
+Token 450: mean=-0.2266, std=29.2500
+Token 451: mean=-0.1416, std=21.5000
+Token 452: mean=-0.2070, std=26.0000
+Token 453: mean=-0.1680, std=24.5000
+Token 454: mean=-0.2002, std=29.6250
+Token 455: mean=-0.1562, std=19.3750
+Token 456: mean=-0.0645, std=20.3750
+Token 457: mean=-0.1494, std=21.7500
+Token 458: mean=-0.1377, std=21.6250
+Token 459: mean=-0.1079, std=26.6250
+Token 460: mean=-0.1895, std=24.1250
+Token 461: mean=-0.1001, std=20.8750
+Token 462: mean=-0.1494, std=18.3750
+Token 463: mean=-0.0669, std=20.6250
+Token 464: mean=-0.0986, std=12.0625
+Token 465: mean=0.0393, std=22.7500
+Token 466: mean=-0.1221, std=20.8750
+Token 467: mean=-0.1914, std=26.7500
+Token 468: mean=-0.1436, std=25.8750
+Token 469: mean=-0.0576, std=21.7500
+Token 470: mean=-0.0366, std=18.5000
+Token 471: mean=-0.1367, std=26.0000
+Token 472: mean=-0.1206, std=24.1250
+Token 473: mean=-0.2266, std=19.7500
+Token 474: mean=-0.2500, std=12.7500
+Token 475: mean=-0.1182, std=25.0000
+Token 476: mean=-0.1240, std=23.2500
+Token 477: mean=-0.1289, std=19.5000
+Token 478: mean=-0.1924, std=20.7500
+Token 479: mean=-0.0996, std=14.0625
+Token 480: mean=-0.0864, std=19.2500
+Token 481: mean=-0.1689, std=23.7500
+Token 482: mean=-0.2432, std=22.8750
+Token 483: mean=-0.2178, std=27.0000
+Token 484: mean=-0.2139, std=27.0000
+Token 485: mean=-0.2539, std=26.5000
+Token 486: mean=-0.3496, std=28.7500
+Token 487: mean=-0.3047, std=25.7500
+Token 488: mean=-0.2246, std=25.6250
+Token 489: mean=-0.1689, std=22.7500
+Token 490: mean=-0.2598, std=21.2500
+Token 491: mean=-0.2324, std=20.1250
+Token 492: mean=-0.2070, std=12.6250
+Token 493: mean=-0.0103, std=19.2500
+Token 494: mean=-0.0938, std=22.1250
+Token 495: mean=-0.2168, std=24.5000
+Token 496: mean=-0.2109, std=25.1250
+Token 497: mean=-0.2676, std=27.5000
+Token 498: mean=-0.1787, std=27.0000
+Token 499: mean=-0.1245, std=19.0000
+Token 500: mean=-0.0859, std=22.1250
+Token 501: mean=-0.1953, std=22.0000
+Token 502: mean=-0.3125, std=23.2500
+Token 503: mean=-0.2275, std=25.5000
+Token 504: mean=-0.2676, std=25.3750
+Token 505: mean=-0.2734, std=24.3750
+Token 506: mean=-0.1475, std=22.1250
+Token 507: mean=-0.2812, std=25.0000
+Token 508: mean=-0.2461, std=24.8750
+Token 509: mean=-0.1465, std=23.7500
+Token 510: mean=-0.1543, std=20.7500
+Token 511: mean=-0.2227, std=24.2500
+Token 512: mean=-0.2812, std=27.0000
+Token 513: mean=-0.2021, std=24.8750
+Token 514: mean=-0.1040, std=22.3750
+Token 515: mean=-0.2031, std=16.6250
+Token 516: mean=-0.1533, std=10.5625
+Token 517: mean=-0.1396, std=19.2500
+Token 518: mean=-0.2490, std=23.5000
+Token 519: mean=-0.0918, std=22.8750
+Token 520: mean=-0.1621, std=23.0000
+Token 521: mean=-0.2373, std=30.6250
+Token 522: mean=-0.1396, std=19.1250
+Token 523: mean=-0.1523, std=22.2500
+Token 524: mean=-0.2754, std=25.3750
+Token 525: mean=-0.2441, std=24.5000
+Token 526: mean=-0.2793, std=21.5000
+Token 527: mean=-0.1299, std=21.5000
+Token 528: mean=-0.0898, std=14.3125
+Token 529: mean=-0.0620, std=21.8750
+Token 530: mean=-0.1816, std=22.0000
+Token 531: mean=-0.0786, std=23.8750
+Token 532: mean=-0.1953, std=24.0000
+Token 533: mean=-0.1289, std=23.1250
+Token 534: mean=-0.2734, std=16.3750
+Token 535: mean=-0.2734, std=23.0000
+Token 536: mean=-0.2305, std=22.8750
+Token 537: mean=-0.1621, std=25.0000
+Token 538: mean=-0.3809, std=24.1250
+Token 539: mean=-0.2080, std=24.8750
+Token 540: mean=-0.0496, std=16.5000
+Token 541: mean=-0.1611, std=23.7500
+Token 542: mean=-0.2754, std=28.7500
+Token 543: mean=-0.0835, std=26.8750
+Token 544: mean=0.1162, std=32.2500
+Token 545: mean=-0.0977, std=29.7500
+Token 546: mean=-0.0728, std=25.1250
+Token 547: mean=-0.0894, std=24.2500
+Token 548: mean=-0.2490, std=24.8750
+Token 549: mean=-0.3066, std=24.5000
+Token 550: mean=-0.3398, std=28.6250
+Token 551: mean=-0.1387, std=23.5000
+Token 552: mean=-0.1729, std=24.3750
+Token 553: mean=-0.1592, std=30.8750
+Token 554: mean=-0.3086, std=27.6250
+Token 555: mean=-0.1660, std=22.0000
+Token 556: mean=-0.2012, std=27.1250
+Token 557: mean=-0.1768, std=27.6250
+Token 558: mean=-0.1118, std=30.2500
+Token 559: mean=-0.0356, std=29.1250
+Token 560: mean=-0.0151, std=29.0000
+Token 561: mean=-0.0486, std=23.5000
+Token 562: mean=0.0615, std=26.7500
+Token 563: mean=-0.0525, std=25.2500
+Token 564: mean=-0.1011, std=30.6250
+Token 565: mean=-0.1680, std=25.8750
+Token 566: mean=-0.0376, std=27.6250
+Token 567: mean=-0.0059, std=25.1250
+Token 568: mean=0.0605, std=21.3750
+Token 569: mean=-0.0052, std=25.1250
+Token 570: mean=-0.1504, std=22.3750
+Token 571: mean=-0.1113, std=25.8750
+Token 572: mean=-0.4336, std=24.5000
+Token 573: mean=-0.1797, std=16.8750
+Token 574: mean=-0.0684, std=15.9375
+Token 575: mean=-0.1787, std=19.2500
+Token 576: mean=-0.3496, std=28.7500
+Token 577: mean=-0.2246, std=24.5000
+Token 578: mean=-0.1777, std=29.3750
+Token 579: mean=-0.0303, std=24.6250
+Token 580: mean=-0.1016, std=22.7500
+Token 581: mean=-0.1182, std=24.2500
+Token 582: mean=-0.2852, std=22.7500
+Token 583: mean=-0.1553, std=26.8750
+Token 584: mean=-0.0908, std=23.6250
+Token 585: mean=-0.1758, std=17.3750
+Token 586: mean=-0.1826, std=25.3750
+Token 587: mean=-0.2031, std=30.8750
+Token 588: mean=-0.0535, std=24.6250
+Token 589: mean=-0.1836, std=23.7500
+Token 590: mean=-0.2578, std=24.3750
+Token 591: mean=-0.1094, std=25.3750
+Token 592: mean=-0.0532, std=22.3750
+Token 593: mean=-0.1152, std=22.0000
+Token 594: mean=-0.2109, std=26.5000
+Token 595: mean=-0.2344, std=25.6250
+Token 596: mean=-0.2637, std=30.2500
+Token 597: mean=-0.0698, std=23.2500
+Token 598: mean=-0.1680, std=21.6250
+Token 599: mean=-0.2383, std=25.5000
+Token 600: mean=-0.2520, std=27.5000
+Token 601: mean=-0.3301, std=30.1250
+Token 602: mean=-0.1836, std=22.8750
+Token 603: mean=-0.2598, std=24.8750
+Token 604: mean=-0.1377, std=19.8750
+Token 605: mean=-0.0228, std=23.3750
+Token 606: mean=-0.1377, std=23.7500
+Token 607: mean=-0.2334, std=25.0000
+Token 608: mean=-0.3379, std=25.8750
+Token 609: mean=-0.2002, std=23.1250
+Token 610: mean=-0.1562, std=25.8750
+Token 611: mean=-0.1914, std=24.3750
+Token 612: mean=-0.3086, std=18.8750
+Token 613: mean=-0.3809, std=28.8750
+Token 614: mean=-0.2285, std=23.7500
+Token 615: mean=-0.2949, std=26.6250
+Token 616: mean=-0.1021, std=21.8750
+Token 617: mean=-0.1807, std=16.7500
+Token 618: mean=-0.1982, std=15.1250
+Token 619: mean=-0.1738, std=23.8750
+Token 620: mean=-0.2578, std=17.5000
+Token 621: mean=-0.2275, std=26.1250
+Token 622: mean=-0.0786, std=21.7500
+Token 623: mean=-0.1846, std=13.6875
+Token 624: mean=-0.2412, std=15.1250
+Token 625: mean=-0.3145, std=26.6250
+Token 626: mean=-0.2227, std=17.5000
+Token 627: mean=-0.2520, std=27.5000
+Token 628: mean=-0.0874, std=21.6250
+Token 629: mean=-0.2070, std=13.8750
+Token 630: mean=-0.1348, std=12.9375
+Token 631: mean=-0.1211, std=23.8750
+Token 632: mean=-0.1982, std=14.4375
+Token 633: mean=-0.1484, std=20.8750
+Token 634: mean=0.0422, std=22.1250
+Token 635: mean=-0.2227, std=21.1250
+Token 636: mean=-0.3887, std=25.0000
+Token 637: mean=-0.3457, std=25.0000
+Token 638: mean=-0.0237, std=23.3750
+Token 639: mean=0.0698, std=12.1250
+Token 640: mean=0.0430, std=21.5000
+Token 641: mean=-0.2070, std=23.7500
+Token 642: mean=-0.3516, std=25.3750
+Token 643: mean=-0.1504, std=23.2500
+Token 644: mean=-0.0806, std=21.0000
+Token 645: mean=-0.2539, std=25.0000
+Token 646: mean=-0.2480, std=28.0000
+Token 647: mean=-0.3828, std=27.0000
+Token 648: mean=-0.1816, std=23.2500
+Token 649: mean=-0.1025, std=16.1250
+Token 650: mean=-0.2256, std=25.0000
+Token 651: mean=-0.2080, std=24.7500
+Token 652: mean=-0.2168, std=26.6250
+Token 653: mean=-0.2363, std=26.0000
+Token 654: mean=-0.1729, std=25.7500
+Token 655: mean=-0.1592, std=22.7500
+Token 656: mean=-0.2598, std=24.3750
+Token 657: mean=-0.2051, std=25.0000
+Token 658: mean=-0.1768, std=29.5000
+Token 659: mean=-0.3203, std=27.3750
+Token 660: mean=-0.2617, std=22.8750
+Token 661: mean=-0.0515, std=27.2500
+Token 662: mean=-0.2148, std=20.5000
+Token 663: mean=-0.1157, std=22.0000
+Token 664: mean=-0.2451, std=23.1250
+Token 665: mean=-0.1201, std=23.5000
+Token 666: mean=-0.2539, std=26.3750
+Token 667: mean=-0.2363, std=25.5000
+Token 668: mean=-0.1836, std=21.8750
+Token 669: mean=-0.2812, std=26.2500
+Token 670: mean=-0.0469, std=18.5000
+Token 671: mean=-0.3086, std=27.6250
+Token 672: mean=-0.0168, std=28.8750
+Token 673: mean=-0.2031, std=23.8750
+Token 674: mean=-0.0918, std=20.8750
+Token 675: mean=-0.1602, std=21.8750
+Token 676: mean=-0.1768, std=26.6250
+Token 677: mean=-0.1973, std=24.1250
+Token 678: mean=-0.1455, std=28.0000
+Token 679: mean=-0.2119, std=23.5000
+Token 680: mean=-0.1895, std=19.5000
+Token 681: mean=-0.0303, std=24.6250
+Token 682: mean=0.0294, std=18.1250
+Token 683: mean=-0.1250, std=19.1250
+Token 684: mean=-0.1001, std=24.0000
+Token 685: mean=-0.2090, std=22.6250
+Token 686: mean=-0.1250, std=24.6250
+Token 687: mean=-0.0011, std=20.0000
+Token 688: mean=-0.1289, std=18.5000
+Token 689: mean=-0.2930, std=26.3750
+Token 690: mean=-0.2500, std=25.6250
+Token 691: mean=-0.2168, std=23.7500
+Token 692: mean=-0.2207, std=26.3750
+Token 693: mean=-0.1089, std=17.5000
+Token 694: mean=-0.1758, std=23.0000
+Token 695: mean=-0.1475, std=24.2500
+Token 696: mean=-0.1768, std=24.1250
+Token 697: mean=-0.2041, std=24.6250
+Token 698: mean=-0.1611, std=26.0000
+Token 699: mean=-0.1719, std=24.3750
+Token 700: mean=-0.2217, std=26.8750
+Token 701: mean=-0.2295, std=23.1250
+Token 702: mean=-0.1367, std=20.5000
+Token 703: mean=-0.1680, std=20.2500
+Token 704: mean=-0.4219, std=23.7500
+Token 705: mean=-0.1523, std=14.0000
+Token 706: mean=-0.1367, std=13.1875
+Token 707: mean=-0.2539, std=24.2500
+Token 708: mean=-0.2715, std=28.7500
+Token 709: mean=-0.2285, std=27.5000
+Token 710: mean=-0.2002, std=23.3750
+Token 711: mean=-0.0486, std=23.3750
+Token 712: mean=-0.1777, std=22.1250
+Token 713: mean=-0.2676, std=26.3750
+Token 714: mean=-0.2852, std=27.5000
+Token 715: mean=-0.2471, std=23.2500
+Token 716: mean=-0.2451, std=31.1250
+Token 717: mean=-0.0654, std=20.7500
+Token 718: mean=-0.1377, std=23.3750
+Token 719: mean=-0.1963, std=25.8750
+Token 720: mean=-0.2285, std=27.3750
+Token 721: mean=-0.1992, std=30.6250
+Token 722: mean=-0.0889, std=23.8750
+Token 723: mean=-0.2539, std=24.2500
+Token 724: mean=-0.2295, std=26.1250
+Token 725: mean=-0.1279, std=23.2500
+Token 726: mean=-0.1582, std=21.3750
+Token 727: mean=-0.2148, std=24.7500
+Token 728: mean=-0.2656, std=23.7500
+Token 729: mean=-0.2217, std=20.1250
+Token 730: mean=-0.0337, std=20.7500
+Token 731: mean=-0.1455, std=22.8750
+Token 732: mean=-0.1553, std=25.2500
+Token 733: mean=-0.2754, std=23.6250
+Token 734: mean=-0.1631, std=23.1250
+Token 735: mean=-0.1250, std=21.2500
+Token 736: mean=-0.2031, std=21.3750
+Token 737: mean=-0.2305, std=26.5000
+Token 738: mean=-0.2793, std=25.8750
+Token 739: mean=-0.3652, std=27.5000
+Token 740: mean=-0.3145, std=25.8750
+Token 741: mean=-0.2988, std=27.1250
+Token 742: mean=-0.1328, std=22.0000
+Token 743: mean=-0.1104, std=23.2500
+Token 744: mean=-0.1885, std=23.8750
+Token 745: mean=-0.2773, std=21.7500
+Token 746: mean=-0.2363, std=26.1250
+Token 747: mean=0.0175, std=15.5000
+Token 748: mean=-0.1387, std=18.5000
+Token 749: mean=-0.0928, std=24.2500
+Token 750: mean=-0.0527, std=25.3750
+Token 751: mean=-0.1562, std=14.9375
+Token 752: mean=-0.2578, std=20.6250
+Token 753: mean=-0.1895, std=24.8750
+Token 754: mean=-0.1338, std=23.6250
+Token 755: mean=-0.0737, std=22.0000
+Token 756: mean=-0.1055, std=23.6250
+Token 757: mean=-0.2002, std=26.1250
+Token 758: mean=-0.2354, std=22.5000
+Token 759: mean=-0.2637, std=18.7500
+Token 760: mean=-0.0850, std=21.1250
+Token 761: mean=-0.1602, std=18.3750
+Token 762: mean=-0.2285, std=24.8750
+Token 763: mean=-0.1963, std=23.0000
+Token 764: mean=-0.1270, std=22.8750
+Token 765: mean=-0.2236, std=27.0000
+Token 766: mean=-0.2256, std=28.3750
+Token 767: mean=-0.2285, std=23.3750
+Token 768: mean=-0.1670, std=23.7500
+Token 769: mean=-0.1807, std=29.1250
+Token 770: mean=-0.0747, std=20.5000
+Token 771: mean=-0.1406, std=22.2500
+Token 772: mean=-0.1035, std=24.0000
+Token 773: mean=-0.1719, std=26.7500
+Token 774: mean=-0.2949, std=25.1250
+Token 775: mean=-0.2832, std=25.7500
+Token 776: mean=-0.2949, std=26.3750
+Token 777: mean=-0.2832, std=25.8750
+Token 778: mean=-0.1289, std=21.7500
+Token 779: mean=-0.1123, std=21.3750
+Token 780: mean=-0.2559, std=24.5000
+Token 781: mean=-0.2793, std=26.0000
+Token 782: mean=-0.1035, std=22.3750
+Token 783: mean=-0.1562, std=23.6250
+Token 784: mean=-0.2617, std=21.3750
+Token 785: mean=-0.1309, std=23.3750
+Token 786: mean=-0.1025, std=26.1250
+Token 787: mean=-0.1914, std=23.8750
+Token 788: mean=-0.1797, std=25.3750
+Token 789: mean=-0.0449, std=22.2500
+Token 790: mean=-0.1270, std=24.6250
+Token 791: mean=-0.1611, std=24.2500
+Token 792: mean=-0.1660, std=24.2500
+Token 793: mean=-0.1069, std=23.5000
+Token 794: mean=-0.2412, std=23.5000
+Token 795: mean=-0.0674, std=22.8750
+Token 796: mean=-0.3301, std=21.1250
+Token 797: mean=-0.1572, std=22.5000
+Token 798: mean=-0.2314, std=24.0000
+Token 799: mean=0.0425, std=24.7500
+Token 800: mean=-0.1631, std=23.6250
+Token 801: mean=-0.1885, std=22.7500
+Token 802: mean=-0.1699, std=17.7500
+Token 803: mean=-0.2930, std=15.9375
+Token 804: mean=-0.2773, std=22.2500
+Token 805: mean=-0.1895, std=21.1250
+Token 806: mean=-0.1309, std=23.8750
+Token 807: mean=-0.2256, std=23.3750
+Token 808: mean=0.1357, std=21.2500
+Token 809: mean=0.0007, std=25.8750
+Token 810: mean=-0.2441, std=24.8750
+Token 811: mean=-0.0593, std=28.8750
+Token 812: mean=-0.1748, std=24.1250
+Token 813: mean=-0.0515, std=27.2500
+Token 814: mean=-0.1582, std=26.8750
+Token 815: mean=-0.2393, std=25.6250
+Token 816: mean=-0.1914, std=25.6250
+Token 817: mean=-0.2754, std=24.7500
+Token 818: mean=-0.2676, std=27.0000
+Token 819: mean=-0.2334, std=20.3750
+Token 820: mean=-0.1934, std=28.7500
+Token 821: mean=-0.0330, std=26.6250
+Token 822: mean=-0.1387, std=22.3750
+Token 823: mean=-0.0156, std=29.2500
+Token 824: mean=-0.1211, std=26.0000
+Token 825: mean=-0.0193, std=25.6250
+Token 826: mean=-0.0991, std=22.7500
+Token 827: mean=-0.1699, std=23.8750
+Token 828: mean=-0.3027, std=24.7500
+Token 829: mean=-0.2012, std=21.3750
+Token 830: mean=-0.1475, std=21.5000
+Token 831: mean=-0.1885, std=21.7500
+Token 832: mean=-0.2988, std=17.3750
+Token 833: mean=-0.2930, std=28.6250
+Token 834: mean=0.0850, std=24.8750
+Token 835: mean=-0.0845, std=21.0000
+Token 836: mean=-0.1914, std=16.5000
+Token 837: mean=-0.2051, std=14.5000
+Token 838: mean=-0.2031, std=25.6250
+Token 839: mean=0.0635, std=26.0000
+Token 840: mean=-0.0366, std=23.6250
+Token 841: mean=-0.1924, std=16.5000
+Token 842: mean=-0.2676, std=14.8125
+Token 843: mean=-0.2871, std=29.7500
+Token 844: mean=0.0928, std=26.2500
+Token 845: mean=-0.0928, std=22.0000
+Token 846: mean=-0.2002, std=15.3125
+Token 847: mean=-0.1992, std=13.8125
+Token 848: mean=-0.2637, std=27.3750
+Token 849: mean=0.0718, std=26.5000
+Token 850: mean=0.0447, std=23.5000
+Token 851: mean=-0.2295, std=19.5000
+Token 852: mean=-0.3652, std=23.6250
+Token 853: mean=-0.2891, std=24.0000
+Token 854: mean=-0.1836, std=22.7500
+Token 855: mean=0.0008, std=13.9375
+Token 856: mean=0.0322, std=24.6250
+Token 857: mean=-0.2344, std=22.2500
+Token 858: mean=-0.3359, std=24.8750
+Token 859: mean=-0.1758, std=20.6250
+Token 860: mean=-0.1250, std=23.5000
+Token 861: mean=-0.2275, std=24.2500
+Token 862: mean=-0.0752, std=24.2500
+Token 863: mean=-0.2305, std=24.2500
+Token 864: mean=-0.0923, std=26.0000
+Token 865: mean=-0.2021, std=24.7500
+Token 866: mean=-0.1934, std=25.5000
+Token 867: mean=-0.1836, std=25.8750
+Token 868: mean=-0.2207, std=23.8750
+Token 869: mean=-0.2520, std=25.3750
+Token 870: mean=-0.2158, std=22.5000
+Token 871: mean=-0.3066, std=23.7500
+Token 872: mean=-0.1104, std=25.0000
+Token 873: mean=-0.2812, std=26.0000
+Token 874: mean=0.0352, std=29.0000
+Token 875: mean=0.0491, std=21.8750
+Token 876: mean=-0.2432, std=27.3750
+Token 877: mean=-0.0996, std=24.0000
+Token 878: mean=-0.1875, std=25.2500
+Token 879: mean=-0.1582, std=27.5000
+Token 880: mean=-0.0449, std=29.1250
+Token 881: mean=-0.2383, std=23.7500
+Token 882: mean=-0.2461, std=27.5000
+Token 883: mean=-0.1484, std=18.8750
+Token 884: mean=-0.2021, std=24.0000
+Token 885: mean=-0.1904, std=28.7500
+Token 886: mean=-0.0713, std=28.7500
+Token 887: mean=-0.1699, std=21.7500
+Token 888: mean=-0.2500, std=25.7500
+Token 889: mean=-0.2090, std=25.3750
+Token 890: mean=-0.2090, std=27.1250
+Token 891: mean=-0.1426, std=29.2500
+Token 892: mean=-0.1602, std=21.6250
+Token 893: mean=-0.1309, std=24.5000
+Token 894: mean=-0.0996, std=24.3750
+Token 895: mean=-0.1025, std=24.1250
+Token 896: mean=-0.1436, std=21.0000
+Token 897: mean=-0.0767, std=23.5000
+Token 898: mean=0.1338, std=23.3750
+Token 899: mean=-0.2520, std=27.5000
+Token 900: mean=-0.2227, std=24.1250
+Token 901: mean=-0.3105, std=22.0000
+Token 902: mean=-0.2402, std=20.8750
+Token 903: mean=-0.0125, std=15.5000
+Token 904: mean=-0.2930, std=20.1250
+Token 905: mean=-0.2041, std=26.5000
+Token 906: mean=-0.1699, std=22.5000
+Token 907: mean=-0.1475, std=28.1250
+Token 908: mean=-0.1270, std=27.1250
+Token 909: mean=-0.3633, std=26.5000
+Token 910: mean=-0.0469, std=24.7500
+Token 911: mean=-0.3047, std=27.6250
+Token 912: mean=-0.1719, std=26.0000
+Token 913: mean=-0.1523, std=25.2500
+Token 914: mean=-0.1826, std=22.7500
+Token 915: mean=-0.1641, std=24.1250
+Token 916: mean=-0.1211, std=21.2500
+Token 917: mean=-0.2305, std=28.5000
+Token 918: mean=-0.0635, std=22.3750
+Token 919: mean=-0.1426, std=25.1250
+Token 920: mean=-0.1787, std=22.0000
+Token 921: mean=-0.2070, std=15.5625
+Token 922: mean=-0.2852, std=14.1250
+Token 923: mean=-0.3281, std=21.8750
+Token 924: mean=-0.2070, std=17.5000
+Token 925: mean=-0.1416, std=21.2500
+Token 926: mean=-0.2422, std=22.0000
+Token 927: mean=0.0771, std=16.7500
+Token 928: mean=-0.1807, std=25.0000
+Token 929: mean=-0.3105, std=24.7500
+Token 930: mean=-0.2871, std=26.5000
+Token 931: mean=-0.0918, std=23.0000
+Token 932: mean=-0.1748, std=27.5000
+Token 933: mean=-0.2246, std=27.5000
+Token 934: mean=-0.1982, std=27.8750
+Token 935: mean=-0.1289, std=27.2500
+Token 936: mean=-0.0674, std=28.6250
+Token 937: mean=-0.1611, std=24.1250
+Token 938: mean=-0.1777, std=26.1250
+Token 939: mean=-0.0688, std=27.6250
+Token 940: mean=-0.0596, std=27.2500
+Token 941: mean=-0.0874, std=28.1250
+Token 942: mean=-0.1167, std=23.7500
+Token 943: mean=-0.1455, std=26.3750
+Token 944: mean=-0.0752, std=24.0000
+Token 945: mean=-0.1250, std=27.7500
+Token 946: mean=-0.0461, std=20.0000
+Token 947: mean=0.0674, std=30.6250
+Token 948: mean=-0.1650, std=17.2500
+Token 949: mean=-0.0442, std=21.8750
+Token 950: mean=-0.0869, std=27.5000
+Token 951: mean=-0.0564, std=23.8750
+Token 952: mean=0.0109, std=28.3750
+Token 953: mean=0.0635, std=29.5000
+Token 954: mean=-0.0327, std=22.8750
+Token 955: mean=-0.1377, std=27.0000
+Token 956: mean=-0.2461, std=26.8750
+Token 957: mean=-0.1719, std=24.1250
+Token 958: mean=-0.1514, std=28.5000
+Token 959: mean=-0.0757, std=25.5000
+Token 960: mean=-0.3672, std=28.8750
+Token 961: mean=-0.1367, std=26.5000
+Token 962: mean=-0.1309, std=23.0000
+Token 963: mean=-0.2051, std=24.2500
+Token 964: mean=0.0049, std=20.7500
+Token 965: mean=-0.0510, std=22.0000
+Token 966: mean=-0.1758, std=18.1250
+Token 967: mean=-0.3594, std=24.5000
+Token 968: mean=-0.1689, std=18.7500
+Token 969: mean=-0.0903, std=19.2500
+Token 970: mean=-0.1846, std=19.3750
+Token 971: mean=-0.2520, std=15.6250
+Token 972: mean=-0.1777, std=31.3750
+Token 973: mean=-0.1128, std=23.2500
+Token 974: mean=-0.1943, std=24.8750
+Token 975: mean=-0.0850, std=21.5000
+Token 976: mean=-0.2168, std=14.5625
+Token 977: mean=-0.2158, std=14.0000
+Token 978: mean=-0.1924, std=30.2500
+Token 979: mean=0.0354, std=20.5000
+Token 980: mean=-0.2031, std=23.8750
+Token 981: mean=-0.1836, std=22.8750
+Token 982: mean=-0.0781, std=21.5000
+Token 983: mean=-0.1826, std=13.2500
+Token 984: mean=-0.2197, std=14.7500
+Token 985: mean=-0.1279, std=26.2500
+Token 986: mean=0.0299, std=23.3750
+Token 987: mean=-0.1157, std=25.2500
+Token 988: mean=-0.0742, std=21.7500
+Token 989: mean=-0.2041, std=12.9375
+Token 990: mean=-0.1797, std=13.0625
+Token 991: mean=-0.1689, std=27.2500
+Token 992: mean=-0.0366, std=27.5000
+Token 993: mean=-0.1602, std=25.8750
+Token 994: mean=0.0525, std=24.5000
+Token 995: mean=-0.2246, std=17.3750
+Token 996: mean=-0.4785, std=21.1250
+Token 997: mean=-0.2207, std=21.0000
+Token 998: mean=-0.1328, std=18.2500
+Token 999: mean=0.0001, std=10.5000
+Token 1000: mean=0.0410, std=24.3750
+Token 1001: mean=-0.1973, std=18.3750
+Token 1002: mean=-0.4121, std=22.1250
+Token 1003: mean=-0.1904, std=17.0000
+Token 1004: mean=-0.1211, std=19.1250
+Token 1005: mean=-0.1943, std=24.1250
+Token 1006: mean=-0.1240, std=24.1250
+Token 1007: mean=-0.1797, std=24.7500
+Token 1008: mean=-0.2109, std=27.0000
+Token 1009: mean=-0.1748, std=25.3750
+Token 1010: mean=-0.1216, std=26.3750
+Token 1011: mean=-0.2002, std=28.6250
+Token 1012: mean=-0.1367, std=25.7500
+Token 1013: mean=-0.1963, std=29.3750
+Token 1014: mean=-0.0737, std=25.7500
+Token 1015: mean=-0.1406, std=26.1250
+Token 1016: mean=-0.1138, std=29.2500
+Token 1017: mean=-0.0913, std=27.8750
+Token 1018: mean=0.0161, std=27.2500
+Token 1019: mean=-0.0591, std=28.6250
+Token 1020: mean=-0.0854, std=22.5000
+Token 1021: mean=-0.1768, std=24.0000
+Token 1022: mean=-0.1855, std=27.0000
+Token 1023: mean=-0.0361, std=22.0000
+✅ Activations已保存到 last_layer_mlp_activations.pt
+可视化已保存到: VL_activation_heatmap.png
